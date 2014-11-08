@@ -19,7 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site m-all t-all d2-d12">
+<div id="page" class="hfeed site">
 	<a class="skip-linfk screen-reader-text" href="#content"><?php _e( 'Skip to content', 'clear-content' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">

@@ -2722,16 +2722,90 @@ body {
 body .site {
   background-color: white; }
 
-.content-area {
-  float: left; }
+.hfeed {
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .hfeed {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%; } }
+  @media only screen and (min-width: 990px) {
+    .hfeed {
+      display: block;
+      float: left;
+      margin-left: 8.6139896416%;
+      margin-right: -100%;
+      width: 91.3860103837%; } }
 
-.site-main {
-  background-color: green; }
+.site-content, .site-header {
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .site-content, .site-header {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%; } }
+  @media only screen and (min-width: 990px) {
+    .site-content, .site-header {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 100.0000000253%; } }
+
+.site-content .content-area {
+  background-color: green;
+  float: left;
+  display: block;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+  width: 87.8125%; }
+  @media only screen and (min-width: 768px) {
+    .site-content .content-area {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 74.3489583538%; } }
+  @media only screen and (min-width: 990px) {
+    .site-content .content-area {
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 65.5440414831%; } }
 
 .site-content .widget-area {
-  overflow: hidden;
-  float: left;
-  background-color: yellow; }
+  background-color: yellow;
+  float: none; }
+  @media only screen and (min-width: 768px) {
+    .site-content .widget-area {
+      display: block;
+      float: left;
+      margin-left: 76.9531250238%;
+      margin-right: -100%;
+      width: 23.0468749995%; } }
+  @media only screen and (min-width: 990px) {
+    .site-content .widget-area {
+      display: block;
+      float: left;
+      margin-left: 68.9119171331%;
+      margin-right: -100%;
+      width: 22.4740932579%;
+      padding-left: 0%;
+      padding-right: 0%; } }
 
 .site-footer {
   clear: both; }
@@ -2863,7 +2937,17 @@ pre {
   margin-bottom: 1.6em;
   max-width: 100%;
   overflow: auto;
-  padding: 1.6em; }
+  padding: 1.6em;
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */ }
 
 code, kbd, tt, var {
   font-size: 15px;

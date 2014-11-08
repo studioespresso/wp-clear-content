@@ -6,19 +6,50 @@ body .site {
 	background-color: white;
 }
 
-.content-area {
-	float: left;
-
+.hfeed {
+	@include gs-span(m, all);
+	@include gs-media (t, min) {
+		@include gs-span(t, all);
+	}
+	@include gs-media (d, min) {
+		@include gs-span(d, 2, 12);
+	}
 }
 
-.site-main {
+
+.site-content, .site-header {
+	@include gs-span(m, all);
+	@include gs-media (t, min) {
+		@include gs-span(t, all);
+	}
+	@include gs-media (d, min) {
+		@include gs-span(d, 1, 12);
+	}
+}
+
+.site-content .content-area {
 	background-color: green;
+	float: left;
+	@include gs-span(m, 1);
+	@include gs-media (t, min) {
+		@include gs-span(t, 1, 6);
+	}
+	@include gs-media (d, min) {
+		@include gs-span(d, 1, 8);
+	}
 }
 
 .site-content .widget-area {
-	overflow: hidden;
-	float: left;
 	background-color: yellow;
+	float: none;
+	@include gs-media (t, min) {
+		@include gs-span(t, 7, 8);
+	}
+	@include gs-media (d, min) {
+		@include gs-span(d, 9, 11);
+		@include gs-pad(d, infull)
+	}
+
 }
 
 .site-footer {
