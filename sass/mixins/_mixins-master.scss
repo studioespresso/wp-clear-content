@@ -20,3 +20,19 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+@each $font-face in Lato-Light, Lato-Regular, Lato-Hairline  {
+    @font-face {
+          font-family: $font-face; font-style: normal; font-weight: normal;
+          src: url('fonts/#{$font-face}.eot');
+          src: url('fonts/#{$font-face}.eot?') format('eot'),
+               url('fonts/#{$font-face}.woff') format('woff'),
+               url('fonts/#{$font-face}.ttf')  format('truetype');
+    }
+}
+
+@mixin font($font, $style: normal, $weight: normal) {
+    font-family: $font, Avenir, Verdana, sans-serif;
+    font-style:  $style;
+    font-weight: $weight;
+}
