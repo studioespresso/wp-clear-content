@@ -2716,13 +2716,8 @@ and Blueprint http://www.blueprintcss.org/
 #gridscreenwidthwrap {
   display: block !important; }
 
-body {
-  background-color: black; }
-
-body .site {
-  background-color: white; }
-
 .hfeed {
+  background-color: white;
   clear: both;
   display: block;
   float: left;
@@ -2742,70 +2737,83 @@ body .site {
       margin-left: 8.6139896416%;
       margin-right: -100%;
       width: 91.3860103837%; } }
-
-.site-content, .site-header {
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%; }
-  @media only screen and (min-width: 768px) {
-    .site-content, .site-header {
-      clear: both;
-      display: block;
+  .hfeed .site-header {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 3.36787565%;
+    padding-right: 3.36787565%; }
+  .hfeed .site-content {
+    margin-top: 20px;
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .hfeed .site-content {
+        clear: both;
+        display: block;
+        float: left;
+        margin-left: 0;
+        width: 100%; } }
+    @media only screen and (min-width: 990px) {
+      .hfeed .site-content {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 100.0000000253%; } }
+    .hfeed .site-content .content-area {
+      background-color: green;
       float: left;
-      margin-left: 0;
-      width: 100%; } }
-  @media only screen and (min-width: 990px) {
-    .site-content, .site-header {
-      display: block;
-      float: left;
-      margin-left: 0;
-      margin-right: -100%;
-      width: 100.0000000253%; } }
-
-.site-content .content-area {
-  background-color: green;
-  float: left;
-  display: block;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
-  width: 87.8125%; }
-  @media only screen and (min-width: 768px) {
-    .site-content .content-area {
-      display: block;
-      float: left;
-      margin-left: 0;
-      margin-right: -100%;
-      width: 74.3489583538%; } }
-  @media only screen and (min-width: 990px) {
-    .site-content .content-area {
       display: block;
       float: left;
       margin-left: 0;
       margin-right: -100%;
-      width: 65.5440414831%; } }
-
-.site-content .widget-area {
-  background-color: yellow;
-  float: none; }
-  @media only screen and (min-width: 768px) {
-    .site-content .widget-area {
-      display: block;
-      float: left;
-      margin-left: 76.9531250238%;
-      margin-right: -100%;
-      width: 23.0468749995%; } }
-  @media only screen and (min-width: 990px) {
-    .site-content .widget-area {
-      display: block;
-      float: left;
-      margin-left: 68.9119171331%;
-      margin-right: -100%;
-      width: 22.4740932579%;
-      padding-left: 0%;
-      padding-right: 0%; } }
+      width: 87.8125%; }
+      @media only screen and (min-width: 768px) {
+        .hfeed .site-content .content-area {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 74.3489583538%; } }
+      @media only screen and (min-width: 990px) {
+        .hfeed .site-content .content-area {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 65.5440414831%; } }
+      .hfeed .site-content .content-area .site-main {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 100.0000000253%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 3.36787565%;
+        padding-right: 3.36787565%; }
+    .hfeed .site-content .widget-area {
+      background-color: yellow;
+      float: none; }
+      @media only screen and (min-width: 768px) {
+        .hfeed .site-content .widget-area {
+          display: block;
+          float: left;
+          margin-left: 76.9531250238%;
+          margin-right: -100%;
+          width: 23.0468749995%; } }
+      @media only screen and (min-width: 990px) {
+        .hfeed .site-content .widget-area {
+          display: block;
+          float: left;
+          margin-left: 68.9119171331%;
+          margin-right: -100%;
+          width: 22.4740932579%; } }
 
 .site-footer {
   clear: both; }
@@ -3315,11 +3323,6 @@ a {
 .single .byline,
 .group-blog .byline {
   display: inline; }
-
-.page-content,
-.entry-content,
-.entry-summary {
-  margin: 1.5em 0 0; }
 
 .page-links {
   clear: both;
