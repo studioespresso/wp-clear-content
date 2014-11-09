@@ -21,7 +21,7 @@
 	clear: both;
 }
 
-@each $font-face in Lato-Light, Lato-Regular, Lato-Hairline  {
+@each $font-face in Lato-Light, Lato-Regular, Lato-Hairline, Lato-Black  {
     @font-face {
           font-family: $font-face; font-style: normal; font-weight: normal;
           src: url('fonts/#{$font-face}.eot');

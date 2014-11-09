@@ -8,7 +8,8 @@
 		@include gs-span(d, 2, 12);
 	}
 	& .site-header {
-		@include gs-pad(d, padinfull);
+		@include gs-span(d, 1, 11);
+		@include gs-pad(d, padin);
 	}
 	& .site-content {
 		margin-top: 20px;
@@ -20,7 +21,6 @@
 			@include gs-span(d, 1, 12);
 		}
 		& .content-area {
-			background-color: green;
 			float: left;
 			@include gs-span(m, 1);
 			@include gs-media (t, min) {
@@ -31,11 +31,21 @@
 			}
 			& .site-main {
 				@include gs-span(d, 1, 12);
-				@include gs-pad(d, padinfull);
+				// @include gs-pad(d, padinfull);
+			}
+			& article {
+				& header.entry-header {
+					@include gs-pad(d, padinfull);
+				}
+				& .entry-content {
+					@include gs-pad(d, padinfull);
+				}
+				& .entry-footer {
+					@include gs-pad(d, padinfull);
+				}
 			}
 		}
 		& .widget-area {
-			background-color: yellow;
 			float: none;
 			@include gs-media (t, min) {
 				@include gs-span(t, 7, 8);
@@ -45,6 +55,20 @@
 			}
 
 		}
+	}
+}
+
+
+article {
+	& header {
+	}
+	& span.posted-on {
+	}
+	& h1.entry-title {
+	}
+	& .entry-content {
+	}
+	& .entry-footer {
 	}
 }
 

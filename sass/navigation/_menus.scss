@@ -3,6 +3,8 @@
 	display: block;
 	float: left;
 	width: 100%;
+			border-bottom: 1px solid black;
+
 
 	ul {
 		list-style: none;
@@ -46,6 +48,7 @@
 	li {
 		float: left;
 		position: relative;
+		margin-right: 15px;
 
 		&:hover > a {
 		}
