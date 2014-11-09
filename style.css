@@ -2810,38 +2810,79 @@ and Blueprint http://www.blueprintcss.org/
           margin-right: -100%;
           width: 100.0000000253%; }
           .hfeed .site-content .content-area main.site-main article .entry-meta {
-            border-top: 1px solid gray;
-            display: block;
-            float: left;
-            margin-left: 0;
-            margin-right: -100%;
-            width: 13.8601036333%;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-            padding-left: 1.683937825%;
-            padding-right: 1.683937825%; }
+            border-top: 1px solid gray; }
+            @media only screen and (min-width: 768px) {
+              .hfeed .site-content .content-area main.site-main article .entry-meta {
+                display: block;
+                float: left;
+                margin-left: 0;
+                margin-right: -100%;
+                width: 13.8601036333%;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                padding-left: 1.683937825%;
+                padding-right: 1.683937825%; } }
+            @media only screen and (min-width: 990px) {
+              .hfeed .site-content .content-area main.site-main article .entry-meta {
+                display: block;
+                float: left;
+                margin-left: 0;
+                margin-right: -100%;
+                width: 13.8601036333%;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                padding-left: 1.683937825%;
+                padding-right: 1.683937825%; } }
           .hfeed .site-content .content-area main.site-main article header.entry-header {
-            border-top: 1px solid gray;
-            display: block;
-            float: left;
-            margin-left: 17.2279792833%;
-            margin-right: -100%;
-            width: 82.772020742%; }
+            border-top: 1px solid gray; }
+            @media only screen and (min-width: 768px) {
+              .hfeed .site-content .content-area main.site-main article header.entry-header {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
+            @media only screen and (min-width: 990px) {
+              .hfeed .site-content .content-area main.site-main article header.entry-header {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
           .hfeed .site-content .content-area main.site-main article .entry-content {
-            display: block;
-            float: left;
-            margin-left: 17.2279792833%;
-            margin-right: -100%;
-            width: 82.772020742%;
             clear: both; }
+            @media only screen and (min-width: 768px) {
+              .hfeed .site-content .content-area main.site-main article .entry-content {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
+            @media only screen and (min-width: 990px) {
+              .hfeed .site-content .content-area main.site-main article .entry-content {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
           .hfeed .site-content .content-area main.site-main article .entry-footer {
-            display: block;
-            float: left;
-            margin-left: 17.2279792833%;
-            margin-right: -100%;
-            width: 82.772020742%;
             clear: both; }
+            @media only screen and (min-width: 768px) {
+              .hfeed .site-content .content-area main.site-main article .entry-footer {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
+            @media only screen and (min-width: 990px) {
+              .hfeed .site-content .content-area main.site-main article .entry-footer {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
     .hfeed .site-content .widget-area {
       float: none; }
       @media only screen and (min-width: 768px) {
