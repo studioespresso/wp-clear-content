@@ -29,19 +29,29 @@
 			@include gs-media (d, min) {
 				@include gs-span(d, 1, 8);
 			}
-			& .site-main {
+			& main.site-main {
 				@include gs-span(d, 1, 12);
 				// @include gs-pad(d, padinfull);
-			}
-			& article {
-				& header.entry-header {
-					@include gs-pad(d, padinfull);
-				}
-				& .entry-content {
-					@include gs-pad(d, padinfull);
-				}
-				& .entry-footer {
-					@include gs-pad(d, padinfull);
+				& article {
+					clear: both;
+					@include gs-span(d, 1, 12);
+					& .entry-meta {
+						border-top: 1px solid gray;
+						@include gs-span(d, 1, 2);
+						@include gs-pad(d, padin);
+					}
+					& header.entry-header {
+						border-top: 1px solid gray;
+						@include gs-span(d, 3, 12);
+					}
+					& .entry-content {
+						@include gs-span(d, 3, 12);
+						clear: both;
+					}
+					& .entry-footer {
+						@include gs-span(d, 3, 12);
+						clear: both;
+					}
 				}
 			}
 		}
@@ -55,20 +65,10 @@
 			}
 
 		}
-	}
-}
-
-
-article {
-	& header {
-	}
-	& span.posted-on {
-	}
-	& h1.entry-title {
-	}
-	& .entry-content {
-	}
-	& .entry-footer {
+		& .paging-navigation {
+			@include gs-span(d, 2, 12);
+			clear: both;
+		}
 	}
 }
 

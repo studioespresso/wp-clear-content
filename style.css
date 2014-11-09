@@ -2796,30 +2796,52 @@ and Blueprint http://www.blueprintcss.org/
           margin-left: 0;
           margin-right: -100%;
           width: 65.5440414831%; } }
-      .hfeed .site-content .content-area .site-main {
+      .hfeed .site-content .content-area main.site-main {
         display: block;
         float: left;
         margin-left: 0;
         margin-right: -100%;
         width: 100.0000000253%; }
-      .hfeed .site-content .content-area article header.entry-header {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-left: 3.36787565%;
-        padding-right: 3.36787565%; }
-      .hfeed .site-content .content-area article .entry-content {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-left: 3.36787565%;
-        padding-right: 3.36787565%; }
-      .hfeed .site-content .content-area article .entry-footer {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-left: 3.36787565%;
-        padding-right: 3.36787565%; }
+        .hfeed .site-content .content-area main.site-main article {
+          clear: both;
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 100.0000000253%; }
+          .hfeed .site-content .content-area main.site-main article .entry-meta {
+            border-top: 1px solid gray;
+            display: block;
+            float: left;
+            margin-left: 0;
+            margin-right: -100%;
+            width: 13.8601036333%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding-left: 1.683937825%;
+            padding-right: 1.683937825%; }
+          .hfeed .site-content .content-area main.site-main article header.entry-header {
+            border-top: 1px solid gray;
+            display: block;
+            float: left;
+            margin-left: 17.2279792833%;
+            margin-right: -100%;
+            width: 82.772020742%; }
+          .hfeed .site-content .content-area main.site-main article .entry-content {
+            display: block;
+            float: left;
+            margin-left: 17.2279792833%;
+            margin-right: -100%;
+            width: 82.772020742%;
+            clear: both; }
+          .hfeed .site-content .content-area main.site-main article .entry-footer {
+            display: block;
+            float: left;
+            margin-left: 17.2279792833%;
+            margin-right: -100%;
+            width: 82.772020742%;
+            clear: both; }
     .hfeed .site-content .widget-area {
       float: none; }
       @media only screen and (min-width: 768px) {
@@ -2836,6 +2858,13 @@ and Blueprint http://www.blueprintcss.org/
           margin-left: 68.9119171331%;
           margin-right: -100%;
           width: 22.4740932579%; } }
+    .hfeed .site-content .paging-navigation {
+      display: block;
+      float: left;
+      margin-left: 8.6139896416%;
+      margin-right: -100%;
+      width: 91.3860103837%;
+      clear: both; }
 
 .site-footer {
   clear: both; }
