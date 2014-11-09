@@ -35,6 +35,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+
 		<?php clear_content_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

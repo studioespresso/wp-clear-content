@@ -36,18 +36,15 @@
 					clear: both;
 					@include gs-span(d, 1, 12);
 					& .entry-meta {
-						border-top: 1px solid gray;
 						@include gs-media (t, min) {
 							@include gs-span(d, 1, 2);
 							@include gs-pad(d, padin);
 						}
 						@include gs-media (d, min) {
 							@include gs-span(d, 1, 2);
-							@include gs-pad(d, padin);
 						}
 					}
 					& header.entry-header {
-						border-top: 1px solid gray;
 						@include gs-media (t, min) {
 							@include gs-span(d, 3, 12);
 						}

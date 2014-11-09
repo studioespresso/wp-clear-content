@@ -84,6 +84,8 @@ function clear_content_posted_on() {
 	);
 
 	echo '<span class="posted-on">' . $posted_on . '</span>';
+	edit_post_link( __( 'Edit', 'clear-content' ), '<div class="edit-link">', '</div>' );
+
 
 }
 endif;
@@ -98,7 +100,7 @@ function clear_content_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'clear-content' ) );
 		if ( $categories_list && clear_content_categorized_blog() ) {
-			printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'clear-content' ) . '</span>', $categories_list );
+			printf( '<span class="cat-links">' . __( 'Posted on %1$s', 'clear-content' ) . '</span>', $categories_list );
 		}
 
 		/* translators: used between list items, there is a space after the comma */
@@ -108,13 +110,11 @@ function clear_content_entry_footer() {
 		}
 	}
 
-	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
-		comments_popup_link( __( 'Leave a comment', 'clear-content' ), __( '1 Comment', 'clear-content' ), __( '% Comments', 'clear-content' ) );
-		echo '</span>';
-	}
-
-	edit_post_link( __( 'Edit', 'clear-content' ), '<span class="edit-link">', '</span>' );
+	// if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+	// 	echo '<span class="comments-link">';
+	// 	comments_popup_link( __( 'Leave a comment', 'clear-content' ), __( '1 Comment', 'clear-content' ), __( '% Comments', 'clear-content' ) );
+	// 	echo '</span>';
+	// }
 }
 endif;
 

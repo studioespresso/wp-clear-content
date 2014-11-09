@@ -2809,48 +2809,39 @@ and Blueprint http://www.blueprintcss.org/
           margin-left: 0;
           margin-right: -100%;
           width: 100.0000000253%; }
-          .hfeed .site-content .content-area main.site-main article .entry-meta {
-            border-top: 1px solid gray; }
-            @media only screen and (min-width: 768px) {
-              .hfeed .site-content .content-area main.site-main article .entry-meta {
-                display: block;
-                float: left;
-                margin-left: 0;
-                margin-right: -100%;
-                width: 13.8601036333%;
-                -moz-box-sizing: border-box;
-                -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-                padding-left: 1.683937825%;
-                padding-right: 1.683937825%; } }
-            @media only screen and (min-width: 990px) {
-              .hfeed .site-content .content-area main.site-main article .entry-meta {
-                display: block;
-                float: left;
-                margin-left: 0;
-                margin-right: -100%;
-                width: 13.8601036333%;
-                -moz-box-sizing: border-box;
-                -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-                padding-left: 1.683937825%;
-                padding-right: 1.683937825%; } }
-          .hfeed .site-content .content-area main.site-main article header.entry-header {
-            border-top: 1px solid gray; }
-            @media only screen and (min-width: 768px) {
-              .hfeed .site-content .content-area main.site-main article header.entry-header {
-                display: block;
-                float: left;
-                margin-left: 17.2279792833%;
-                margin-right: -100%;
-                width: 82.772020742%; } }
-            @media only screen and (min-width: 990px) {
-              .hfeed .site-content .content-area main.site-main article header.entry-header {
-                display: block;
-                float: left;
-                margin-left: 17.2279792833%;
-                margin-right: -100%;
-                width: 82.772020742%; } }
+          @media only screen and (min-width: 768px) {
+            .hfeed .site-content .content-area main.site-main article .entry-meta {
+              display: block;
+              float: left;
+              margin-left: 0;
+              margin-right: -100%;
+              width: 13.8601036333%;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+              padding-left: 1.683937825%;
+              padding-right: 1.683937825%; } }
+          @media only screen and (min-width: 990px) {
+            .hfeed .site-content .content-area main.site-main article .entry-meta {
+              display: block;
+              float: left;
+              margin-left: 0;
+              margin-right: -100%;
+              width: 13.8601036333%; } }
+          @media only screen and (min-width: 768px) {
+            .hfeed .site-content .content-area main.site-main article header.entry-header {
+              display: block;
+              float: left;
+              margin-left: 17.2279792833%;
+              margin-right: -100%;
+              width: 82.772020742%; } }
+          @media only screen and (min-width: 990px) {
+            .hfeed .site-content .content-area main.site-main article header.entry-header {
+              display: block;
+              float: left;
+              margin-left: 17.2279792833%;
+              margin-right: -100%;
+              width: 82.772020742%; } }
           .hfeed .site-content .content-area main.site-main article .entry-content {
             clear: both; }
             @media only screen and (min-width: 768px) {
@@ -3016,9 +3007,12 @@ h1, h2, h3, h4, h5, h6 {
 h1.entry-title {
   font-size: 30px;
   font-size: 3rem;
-  font-family: Lato-Black; }
+  font-family: Lato-Regular, Avenir, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal; }
   h1.entry-title a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #17a; }
 
 p {
   margin-bottom: 1.5em; }
@@ -3246,9 +3240,9 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: #17a; }
   a:visited {
-    color: purple; }
+    color: #17a; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
 
@@ -3260,7 +3254,8 @@ a {
   display: block;
   float: left;
   width: 100%;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+  color: #17a; }
   .main-navigation ul {
     list-style: none;
     margin: 0;
@@ -3437,6 +3432,17 @@ a {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+.entry-header, .entry-meta {
+  border-top: 1px solid #eee; }
+
+.entry-meta a {
+  text-decoration: none;
+  font-family: Lato-Light, Avenir, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #999;
+  line-height: 2em; }
 
 /*--------------------------------------------------------------
 10.2 Asides

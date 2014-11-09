@@ -4,8 +4,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.entry-title {
 	@include font-size(3);
-	font-family: Lato-Black;
+	@include font(Lato-Regular);
 	a {
 		text-decoration: none;
+		color: $color__link;
 	}
 }
