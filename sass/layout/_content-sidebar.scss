@@ -1,96 +1,234 @@
-.hfeed {
-	background-color: white;
-	@include gs-span(m, all);
-	@include gs-media (t, min) {
-		@include gs-span(t, all);
-	}
-	@include gs-media (d, min) {
-		@include gs-span(d, 2, 12);
-	}
-	& .site-header {
-		@include gs-span(d, 1, 11);
-		@include gs-pad(d, padin);
-	}
-	& .site-content {
-		margin-top: 20px;
+body.home, body.blog, body.page {
+	& .hfeed {
+		background-color: white;
 		@include gs-span(m, all);
 		@include gs-media (t, min) {
 			@include gs-span(t, all);
 		}
 		@include gs-media (d, min) {
-			@include gs-span(d, 1, 12);
-			@include gs-pad(d, padin);
-
+			@include gs-span(d, 2, 12);
 		}
-		& .content-area {
-			float: left;
-			@include gs-span(m, 1);
+		& .site-header {
+			@include gs-span(d, all);
+			@include gs-pad(d, padin);
+			& .site-branding {
+				clear: none;
+				margin-top: 25px;
+				@include gs-span(d, 1, 2);
+			}
+			& nav.main-navigation {
+				clear: none;
+				margin-top: 25px;
+				@include gs-span(d, 3, 11);
+			}
+		}
+		& .site-content {
+			margin-top: 20px;
+			@include gs-span(m, all);
 			@include gs-media (t, min) {
-				@include gs-span(t, 1, 6);
+				@include gs-span(t, all);
 			}
 			@include gs-media (d, min) {
-				@include gs-span(d, 1, 8);
-			}
-			& main.site-main {
 				@include gs-span(d, 1, 12);
-				& article {
-					clear: both;
+				@include gs-pad(d, padin);
+
+			}
+			& .content-area {
+				float: left;
+				@include gs-span(m, 1);
+				@include gs-media (t, min) {
+					@include gs-span(t, 1, 6);
+				}
+				@include gs-media (d, min) {
+					@include gs-span(d, 1, 8);
+				}
+				& main.site-main {
 					@include gs-span(d, 1, 12);
-					& .entry-meta {
-						@include gs-media (t, min) {
-							@include gs-span(d, 1, 2);
-							@include gs-pad(d, padin);
-						}
-						@include gs-media (d, min) {
-							@include gs-span(d, 1, 3);
-						}
-					}
-					& header.entry-header {
-						@include gs-media (t, min) {
-							@include gs-span(d, 3, 12);
-						}
-						@include gs-media (d, min) {
-							@include gs-span(d, 4, 12);
-						}
-					}
-					& .entry-content {
-						@include gs-media (t, min) {
-							@include gs-span(d, 3, 12);
-						}
-						@include gs-media (d, min) {
-							@include gs-span(d, 4, 12);
-						}
+					& article {
 						clear: both;
-					}
-					& .entry-footer {
-						@include gs-media (t, min) {
-							@include gs-span(d, 3, 12);
+						@include gs-span(d, 1, 12);
+						& .entry-meta {
+							@include gs-media (t, min) {
+								@include gs-span(d, 1, 2);
+								@include gs-pad(d, padin);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 1, 3);
+								@include gs-pad(d, padin);
+							}
 						}
-						@include gs-media (d, min) {
-							@include gs-span(d, 3, 12);
+						& header.entry-header {
+							@include gs-media (t, min) {
+								@include gs-span(d, 3, 12);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 4, 12);
+							}
 						}
-						clear: both;
+						& .entry-content {
+							@include gs-media (t, min) {
+								@include gs-span(d, 3, 12);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 4, 12);
+								margin-top: 0;
+							}
+							clear: both;
+						}
+						& .entry-footer {
+							@include gs-media (t, min) {
+								@include gs-span(d, 3, 12);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 4, 12);
+							}
+							clear: both;
+						}
 					}
 				}
+				& .comments-area {
+					@include gs-span(d, 4, 12);
+					clear: both;
+				}
 			}
-		}
-		& .widget-area {
-			float: none;
-			@include gs-media (t, min) {
-				@include gs-span(t, 7, 8);
-			}
-			@include gs-media (d, min) {
-				@include gs-span(d, 9, 11);
-			}
+			& .widget-area {
+				float: none;
+				@include gs-media (t, min) {
+					@include gs-span(t, 7, 8);
+				}
+				@include gs-media (d, min) {
+					@include gs-span(d, 9, 11);
+				}
 
+			}
+			& .paging-navigation {
+				@include gs-span(d, 2, 12);
+				clear: both;
+			}
 		}
-		& .paging-navigation {
-			@include gs-span(d, 2, 12);
-			clear: both;
-		}
+	}
+	& .site-footer {
+		@include gs-span(d, 3, 12);
+		clear: both;
 	}
 }
 
-.site-footer {
-	clear: both;
+body.single {
+		& .hfeed {
+		background-color: white;
+		@include gs-span(m, all);
+		@include gs-media (t, min) {
+			@include gs-span(t, all);
+		}
+		@include gs-media (d, min) {
+			@include gs-span(d, 2, 12);
+		}
+		& .site-header {
+			@include gs-span(d, all);
+			@include gs-pad(d, padin);
+			& .site-branding {
+				clear: none;
+				margin-top: 25px;
+				@include gs-span(d, 1, 2);
+			}
+			& nav.main-navigation {
+				clear: none;
+				margin-top: 25px;
+				@include gs-span(d, 3, 11);
+			}
+		}
+		& .site-content {
+			margin-top: 20px;
+			@include gs-span(m, all);
+			@include gs-media (t, min) {
+				@include gs-span(t, all);
+			}
+			@include gs-media (d, min) {
+				@include gs-span(d, 1, 12);
+				@include gs-pad(d, padin);
+
+			}
+			& .content-area {
+				float: left;
+				@include gs-span(m, 1);
+				@include gs-media (t, min) {
+					@include gs-span(t, 1, 6);
+				}
+				@include gs-media (d, min) {
+					@include gs-span(d, 1, 8);
+				}
+				& main.site-main {
+					@include gs-span(d, 1, 12);
+					& article {
+						clear: both;
+						@include gs-span(d, 1, 12);
+						& .entry-meta {
+							@include gs-media (t, min) {
+								@include gs-span(d, 1, 12);
+								@include gs-pad(d, padin);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 1, 12);
+								@include gs-pad(d, padin);
+							}
+						}
+						& header.entry-header {
+							@include gs-media (t, min) {
+								@include gs-span(d, 1, 12);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 1, 12);
+							}
+						}
+						& .entry-content {
+							@include gs-media (t, min) {
+								@include gs-span(d, 1, 12);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 1, 12);
+								margin-top: 0;
+							}
+							clear: both;
+						}
+						& .entry-footer {
+							@include gs-media (t, min) {
+								@include gs-span(d, 1, 12);
+							}
+							@include gs-media (d, min) {
+								@include gs-span(d, 1, 12);
+							}
+							clear: both;
+						}
+					}
+				}
+				& .post-navigation {
+					@include gs-span(d, 1, 12);
+					clear: both;
+				}
+				& .comments-area {
+					@include gs-span(d, 1, 12);
+					clear: both;
+				}
+			}
+			& .widget-area {
+				float: none;
+				@include gs-media (t, min) {
+					@include gs-span(t, 7, 8);
+				}
+				@include gs-media (d, min) {
+					@include gs-span(d, 9, 11);
+				}
+
+			}
+			& .paging-navigation {
+				@include gs-span(d, 2, 12);
+				clear: both;
+			}
+		}
+	}
+	& .site-footer {
+		@include gs-span(d, 3, 12);
+		clear: both;
+	}
 }
+

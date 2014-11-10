@@ -1,6 +1,6 @@
 .widget {
 	margin: 0 0 1.5em;
-	border-top: 1px solid gray;
+	border-top: 1px solid darken($color__border, 10%);
 	/* Make sure select elements fit in widgets */
 	select {
 		max-width: 100%;

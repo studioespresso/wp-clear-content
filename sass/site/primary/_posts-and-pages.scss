@@ -37,6 +37,7 @@
 		@include font(Lato-Light);
 		color: $color__meta;
 		line-height: 2em;
-
+		@include font-size(1.7);
+		text-transform: uppercase;
 	}
 }

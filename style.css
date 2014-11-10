@@ -2722,7 +2722,7 @@ and Blueprint http://www.blueprintcss.org/
 #gridscreenwidthwrap {
   display: block !important; }
 
-.hfeed {
+body.home .hfeed, body.blog .hfeed, body.page .hfeed {
   background-color: white;
   clear: both;
   display: block;
@@ -2730,31 +2730,47 @@ and Blueprint http://www.blueprintcss.org/
   margin-left: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
-    .hfeed {
+    body.home .hfeed, body.blog .hfeed, body.page .hfeed {
       clear: both;
       display: block;
       float: left;
       margin-left: 0;
       width: 100%; } }
   @media only screen and (min-width: 990px) {
-    .hfeed {
+    body.home .hfeed, body.blog .hfeed, body.page .hfeed {
       display: block;
       float: left;
       margin-left: 8.6139896416%;
       margin-right: -100%;
       width: 91.3860103837%; } }
-  .hfeed .site-header {
+  body.home .hfeed .site-header, body.blog .hfeed .site-header, body.page .hfeed .site-header {
+    clear: both;
     display: block;
     float: left;
     margin-left: 0;
-    margin-right: -100%;
-    width: 91.386010391%;
+    width: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 1.683937825%;
     padding-right: 1.683937825%; }
-  .hfeed .site-content {
+    body.home .hfeed .site-header .site-branding, body.blog .hfeed .site-header .site-branding, body.page .hfeed .site-header .site-branding {
+      clear: none;
+      margin-top: 25px;
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 13.8601036333%; }
+    body.home .hfeed .site-header nav.main-navigation, body.blog .hfeed .site-header nav.main-navigation, body.page .hfeed .site-header nav.main-navigation {
+      clear: none;
+      margin-top: 25px;
+      display: block;
+      float: left;
+      margin-left: 17.2279792833%;
+      margin-right: -100%;
+      width: 74.1580311077%; }
+  body.home .hfeed .site-content, body.blog .hfeed .site-content, body.page .hfeed .site-content {
     margin-top: 20px;
     clear: both;
     display: block;
@@ -2762,14 +2778,14 @@ and Blueprint http://www.blueprintcss.org/
     margin-left: 0;
     width: 100%; }
     @media only screen and (min-width: 768px) {
-      .hfeed .site-content {
+      body.home .hfeed .site-content, body.blog .hfeed .site-content, body.page .hfeed .site-content {
         clear: both;
         display: block;
         float: left;
         margin-left: 0;
         width: 100%; } }
     @media only screen and (min-width: 990px) {
-      .hfeed .site-content {
+      body.home .hfeed .site-content, body.blog .hfeed .site-content, body.page .hfeed .site-content {
         display: block;
         float: left;
         margin-left: 0;
@@ -2780,7 +2796,7 @@ and Blueprint http://www.blueprintcss.org/
         box-sizing: border-box;
         padding-left: 1.683937825%;
         padding-right: 1.683937825%; } }
-    .hfeed .site-content .content-area {
+    body.home .hfeed .site-content .content-area, body.blog .hfeed .site-content .content-area, body.page .hfeed .site-content .content-area {
       float: left;
       display: block;
       float: left;
@@ -2788,26 +2804,26 @@ and Blueprint http://www.blueprintcss.org/
       margin-right: -100%;
       width: 87.8125%; }
       @media only screen and (min-width: 768px) {
-        .hfeed .site-content .content-area {
+        body.home .hfeed .site-content .content-area, body.blog .hfeed .site-content .content-area, body.page .hfeed .site-content .content-area {
           display: block;
           float: left;
           margin-left: 0;
           margin-right: -100%;
           width: 74.3489583538%; } }
       @media only screen and (min-width: 990px) {
-        .hfeed .site-content .content-area {
+        body.home .hfeed .site-content .content-area, body.blog .hfeed .site-content .content-area, body.page .hfeed .site-content .content-area {
           display: block;
           float: left;
           margin-left: 0;
           margin-right: -100%;
           width: 65.5440414831%; } }
-      .hfeed .site-content .content-area main.site-main {
+      body.home .hfeed .site-content .content-area main.site-main, body.blog .hfeed .site-content .content-area main.site-main, body.page .hfeed .site-content .content-area main.site-main {
         display: block;
         float: left;
         margin-left: 0;
         margin-right: -100%;
         width: 100.0000000253%; }
-        .hfeed .site-content .content-area main.site-main article {
+        body.home .hfeed .site-content .content-area main.site-main article, body.blog .hfeed .site-content .content-area main.site-main article, body.page .hfeed .site-content .content-area main.site-main article {
           clear: both;
           display: block;
           float: left;
@@ -2815,7 +2831,7 @@ and Blueprint http://www.blueprintcss.org/
           margin-right: -100%;
           width: 100.0000000253%; }
           @media only screen and (min-width: 768px) {
-            .hfeed .site-content .content-area main.site-main article .entry-meta {
+            body.home .hfeed .site-content .content-area main.site-main article .entry-meta, body.blog .hfeed .site-content .content-area main.site-main article .entry-meta, body.page .hfeed .site-content .content-area main.site-main article .entry-meta {
               display: block;
               float: left;
               margin-left: 0;
@@ -2827,83 +2843,324 @@ and Blueprint http://www.blueprintcss.org/
               padding-left: 1.683937825%;
               padding-right: 1.683937825%; } }
           @media only screen and (min-width: 990px) {
-            .hfeed .site-content .content-area main.site-main article .entry-meta {
+            body.home .hfeed .site-content .content-area main.site-main article .entry-meta, body.blog .hfeed .site-content .content-area main.site-main article .entry-meta, body.page .hfeed .site-content .content-area main.site-main article .entry-meta {
               display: block;
               float: left;
               margin-left: 0;
               margin-right: -100%;
-              width: 22.4740932749%; } }
+              width: 22.4740932749%;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+              padding-left: 1.683937825%;
+              padding-right: 1.683937825%; } }
           @media only screen and (min-width: 768px) {
-            .hfeed .site-content .content-area main.site-main article header.entry-header {
+            body.home .hfeed .site-content .content-area main.site-main article header.entry-header, body.blog .hfeed .site-content .content-area main.site-main article header.entry-header, body.page .hfeed .site-content .content-area main.site-main article header.entry-header {
               display: block;
               float: left;
               margin-left: 17.2279792833%;
               margin-right: -100%;
               width: 82.772020742%; } }
           @media only screen and (min-width: 990px) {
-            .hfeed .site-content .content-area main.site-main article header.entry-header {
+            body.home .hfeed .site-content .content-area main.site-main article header.entry-header, body.blog .hfeed .site-content .content-area main.site-main article header.entry-header, body.page .hfeed .site-content .content-area main.site-main article header.entry-header {
               display: block;
               float: left;
               margin-left: 25.8419689249%;
               margin-right: -100%;
               width: 74.1580311004%; } }
-          .hfeed .site-content .content-area main.site-main article .entry-content {
+          body.home .hfeed .site-content .content-area main.site-main article .entry-content, body.blog .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
             clear: both; }
             @media only screen and (min-width: 768px) {
-              .hfeed .site-content .content-area main.site-main article .entry-content {
+              body.home .hfeed .site-content .content-area main.site-main article .entry-content, body.blog .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
                 display: block;
                 float: left;
                 margin-left: 17.2279792833%;
                 margin-right: -100%;
                 width: 82.772020742%; } }
             @media only screen and (min-width: 990px) {
-              .hfeed .site-content .content-area main.site-main article .entry-content {
+              body.home .hfeed .site-content .content-area main.site-main article .entry-content, body.blog .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
+                display: block;
+                float: left;
+                margin-left: 25.8419689249%;
+                margin-right: -100%;
+                width: 74.1580311004%;
+                margin-top: 0; } }
+          body.home .hfeed .site-content .content-area main.site-main article .entry-footer, body.blog .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+            clear: both; }
+            @media only screen and (min-width: 768px) {
+              body.home .hfeed .site-content .content-area main.site-main article .entry-footer, body.blog .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+                display: block;
+                float: left;
+                margin-left: 17.2279792833%;
+                margin-right: -100%;
+                width: 82.772020742%; } }
+            @media only screen and (min-width: 990px) {
+              body.home .hfeed .site-content .content-area main.site-main article .entry-footer, body.blog .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
                 display: block;
                 float: left;
                 margin-left: 25.8419689249%;
                 margin-right: -100%;
                 width: 74.1580311004%; } }
-          .hfeed .site-content .content-area main.site-main article .entry-footer {
-            clear: both; }
-            @media only screen and (min-width: 768px) {
-              .hfeed .site-content .content-area main.site-main article .entry-footer {
-                display: block;
-                float: left;
-                margin-left: 17.2279792833%;
-                margin-right: -100%;
-                width: 82.772020742%; } }
-            @media only screen and (min-width: 990px) {
-              .hfeed .site-content .content-area main.site-main article .entry-footer {
-                display: block;
-                float: left;
-                margin-left: 17.2279792833%;
-                margin-right: -100%;
-                width: 82.772020742%; } }
-    .hfeed .site-content .widget-area {
+      body.home .hfeed .site-content .content-area .comments-area, body.blog .hfeed .site-content .content-area .comments-area, body.page .hfeed .site-content .content-area .comments-area {
+        display: block;
+        float: left;
+        margin-left: 25.8419689249%;
+        margin-right: -100%;
+        width: 74.1580311004%;
+        clear: both; }
+    body.home .hfeed .site-content .widget-area, body.blog .hfeed .site-content .widget-area, body.page .hfeed .site-content .widget-area {
       float: none; }
       @media only screen and (min-width: 768px) {
-        .hfeed .site-content .widget-area {
+        body.home .hfeed .site-content .widget-area, body.blog .hfeed .site-content .widget-area, body.page .hfeed .site-content .widget-area {
           display: block;
           float: left;
           margin-left: 76.9531250238%;
           margin-right: -100%;
           width: 23.0468749995%; } }
       @media only screen and (min-width: 990px) {
-        .hfeed .site-content .widget-area {
+        body.home .hfeed .site-content .widget-area, body.blog .hfeed .site-content .widget-area, body.page .hfeed .site-content .widget-area {
           display: block;
           float: left;
           margin-left: 68.9119171331%;
           margin-right: -100%;
           width: 22.4740932579%; } }
-    .hfeed .site-content .paging-navigation {
+    body.home .hfeed .site-content .paging-navigation, body.blog .hfeed .site-content .paging-navigation, body.page .hfeed .site-content .paging-navigation {
       display: block;
       float: left;
       margin-left: 8.6139896416%;
       margin-right: -100%;
       width: 91.3860103837%;
       clear: both; }
+body.home .site-footer, body.blog .site-footer, body.page .site-footer {
+  display: block;
+  float: left;
+  margin-left: 17.2279792833%;
+  margin-right: -100%;
+  width: 82.772020742%;
+  clear: both; }
 
-.site-footer {
+body.single .hfeed {
+  background-color: white;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    body.single .hfeed {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%; } }
+  @media only screen and (min-width: 990px) {
+    body.single .hfeed {
+      display: block;
+      float: left;
+      margin-left: 8.6139896416%;
+      margin-right: -100%;
+      width: 91.3860103837%; } }
+  body.single .hfeed .site-header {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 1.683937825%;
+    padding-right: 1.683937825%; }
+    body.single .hfeed .site-header .site-branding {
+      clear: none;
+      margin-top: 25px;
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 13.8601036333%; }
+    body.single .hfeed .site-header nav.main-navigation {
+      clear: none;
+      margin-top: 25px;
+      display: block;
+      float: left;
+      margin-left: 17.2279792833%;
+      margin-right: -100%;
+      width: 74.1580311077%; }
+  body.single .hfeed .site-content {
+    margin-top: 20px;
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; }
+    @media only screen and (min-width: 768px) {
+      body.single .hfeed .site-content {
+        clear: both;
+        display: block;
+        float: left;
+        margin-left: 0;
+        width: 100%; } }
+    @media only screen and (min-width: 990px) {
+      body.single .hfeed .site-content {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 100.0000000253%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 1.683937825%;
+        padding-right: 1.683937825%; } }
+    body.single .hfeed .site-content .content-area {
+      float: left;
+      display: block;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%;
+      width: 87.8125%; }
+      @media only screen and (min-width: 768px) {
+        body.single .hfeed .site-content .content-area {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 74.3489583538%; } }
+      @media only screen and (min-width: 990px) {
+        body.single .hfeed .site-content .content-area {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 65.5440414831%; } }
+      body.single .hfeed .site-content .content-area main.site-main {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 100.0000000253%; }
+        body.single .hfeed .site-content .content-area main.site-main article {
+          clear: both;
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 100.0000000253%; }
+          @media only screen and (min-width: 768px) {
+            body.single .hfeed .site-content .content-area main.site-main article .entry-meta {
+              display: block;
+              float: left;
+              margin-left: 0;
+              margin-right: -100%;
+              width: 100.0000000253%;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+              padding-left: 1.683937825%;
+              padding-right: 1.683937825%; } }
+          @media only screen and (min-width: 990px) {
+            body.single .hfeed .site-content .content-area main.site-main article .entry-meta {
+              display: block;
+              float: left;
+              margin-left: 0;
+              margin-right: -100%;
+              width: 100.0000000253%;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+              padding-left: 1.683937825%;
+              padding-right: 1.683937825%; } }
+          @media only screen and (min-width: 768px) {
+            body.single .hfeed .site-content .content-area main.site-main article header.entry-header {
+              display: block;
+              float: left;
+              margin-left: 0;
+              margin-right: -100%;
+              width: 100.0000000253%; } }
+          @media only screen and (min-width: 990px) {
+            body.single .hfeed .site-content .content-area main.site-main article header.entry-header {
+              display: block;
+              float: left;
+              margin-left: 0;
+              margin-right: -100%;
+              width: 100.0000000253%; } }
+          body.single .hfeed .site-content .content-area main.site-main article .entry-content {
+            clear: both; }
+            @media only screen and (min-width: 768px) {
+              body.single .hfeed .site-content .content-area main.site-main article .entry-content {
+                display: block;
+                float: left;
+                margin-left: 0;
+                margin-right: -100%;
+                width: 100.0000000253%; } }
+            @media only screen and (min-width: 990px) {
+              body.single .hfeed .site-content .content-area main.site-main article .entry-content {
+                display: block;
+                float: left;
+                margin-left: 0;
+                margin-right: -100%;
+                width: 100.0000000253%;
+                margin-top: 0; } }
+          body.single .hfeed .site-content .content-area main.site-main article .entry-footer {
+            clear: both; }
+            @media only screen and (min-width: 768px) {
+              body.single .hfeed .site-content .content-area main.site-main article .entry-footer {
+                display: block;
+                float: left;
+                margin-left: 0;
+                margin-right: -100%;
+                width: 100.0000000253%; } }
+            @media only screen and (min-width: 990px) {
+              body.single .hfeed .site-content .content-area main.site-main article .entry-footer {
+                display: block;
+                float: left;
+                margin-left: 0;
+                margin-right: -100%;
+                width: 100.0000000253%; } }
+      body.single .hfeed .site-content .content-area .post-navigation {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 100.0000000253%;
+        clear: both; }
+      body.single .hfeed .site-content .content-area .comments-area {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 100.0000000253%;
+        clear: both; }
+    body.single .hfeed .site-content .widget-area {
+      float: none; }
+      @media only screen and (min-width: 768px) {
+        body.single .hfeed .site-content .widget-area {
+          display: block;
+          float: left;
+          margin-left: 76.9531250238%;
+          margin-right: -100%;
+          width: 23.0468749995%; } }
+      @media only screen and (min-width: 990px) {
+        body.single .hfeed .site-content .widget-area {
+          display: block;
+          float: left;
+          margin-left: 68.9119171331%;
+          margin-right: -100%;
+          width: 22.4740932579%; } }
+    body.single .hfeed .site-content .paging-navigation {
+      display: block;
+      float: left;
+      margin-left: 8.6139896416%;
+      margin-right: -100%;
+      width: 91.3860103837%;
+      clear: both; }
+body.single .site-footer {
+  display: block;
+  float: left;
+  margin-left: 17.2279792833%;
+  margin-right: -100%;
+  width: 82.772020742%;
   clear: both; }
 
 /*--------------------------------------------------------------
@@ -3008,6 +3265,15 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
+
+h1.site-title {
+  font-size: 30px;
+  font-size: 3rem;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 3.36787565%;
+  padding-right: 3.36787565%; }
 
 h1.entry-title {
   font-size: 30px;
@@ -3260,7 +3526,9 @@ a {
   float: left;
   width: 100%;
   border-bottom: 1px solid black;
-  color: #17a; }
+  color: #17a;
+  font-size: 21px;
+  font-size: 2.1rem; }
   .main-navigation ul {
     list-style: none;
     margin: 0;
@@ -3284,7 +3552,7 @@ a {
   .main-navigation li {
     float: left;
     position: relative;
-    margin-right: 15px; }
+    margin-right: 10%; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
@@ -3397,7 +3665,7 @@ a {
 --------------------------------------------------------------*/
 .widget {
   margin: 0 0 1.5em;
-  border-top: 1px solid gray;
+  border-top: 1px solid #d4d4d4;
   /* Make sure select elements fit in widgets */ }
   .widget select {
     max-width: 100%; }
@@ -3460,7 +3728,10 @@ a {
   font-style: normal;
   font-weight: normal;
   color: #999;
-  line-height: 2em; }
+  line-height: 2em;
+  font-size: 17px;
+  font-size: 1.7rem;
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 10.2 Asides

@@ -84,9 +84,6 @@ function clear_content_posted_on() {
 	);
 
 	echo '<span class="posted-on">' . $posted_on . '</span>';
-	edit_post_link( __( 'Edit', 'clear-content' ), '<div class="edit-link">', '</div>' );
-
-
 }
 endif;
 
@@ -115,6 +112,8 @@ function clear_content_entry_footer() {
 	// 	comments_popup_link( __( 'Leave a comment', 'clear-content' ), __( '1 Comment', 'clear-content' ), __( '% Comments', 'clear-content' ) );
 	// 	echo '</span>';
 	// }
+		edit_post_link( __( 'Edit', 'clear-content' ), ' | <span class="edit-link">', '</span>' );
+
 }
 endif;
 
