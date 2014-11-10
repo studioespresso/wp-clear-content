@@ -19,6 +19,8 @@
 		}
 		@include gs-media (d, min) {
 			@include gs-span(d, 1, 12);
+			@include gs-pad(d, padin);
+
 		}
 		& .content-area {
 			float: left;
@@ -31,7 +33,6 @@
 			}
 			& main.site-main {
 				@include gs-span(d, 1, 12);
-				// @include gs-pad(d, padinfull);
 				& article {
 					clear: both;
 					@include gs-span(d, 1, 12);
@@ -41,7 +42,7 @@
 							@include gs-pad(d, padin);
 						}
 						@include gs-media (d, min) {
-							@include gs-span(d, 1, 2);
+							@include gs-span(d, 1, 3);
 						}
 					}
 					& header.entry-header {
@@ -49,7 +50,7 @@
 							@include gs-span(d, 3, 12);
 						}
 						@include gs-media (d, min) {
-							@include gs-span(d, 3, 12);
+							@include gs-span(d, 4, 12);
 						}
 					}
 					& .entry-content {
@@ -57,7 +58,7 @@
 							@include gs-span(d, 3, 12);
 						}
 						@include gs-media (d, min) {
-							@include gs-span(d, 3, 12);
+							@include gs-span(d, 4, 12);
 						}
 						clear: both;
 					}

@@ -2774,7 +2774,12 @@ and Blueprint http://www.blueprintcss.org/
         float: left;
         margin-left: 0;
         margin-right: -100%;
-        width: 100.0000000253%; } }
+        width: 100.0000000253%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 1.683937825%;
+        padding-right: 1.683937825%; } }
     .hfeed .site-content .content-area {
       float: left;
       display: block;
@@ -2827,7 +2832,7 @@ and Blueprint http://www.blueprintcss.org/
               float: left;
               margin-left: 0;
               margin-right: -100%;
-              width: 13.8601036333%; } }
+              width: 22.4740932749%; } }
           @media only screen and (min-width: 768px) {
             .hfeed .site-content .content-area main.site-main article header.entry-header {
               display: block;
@@ -2839,9 +2844,9 @@ and Blueprint http://www.blueprintcss.org/
             .hfeed .site-content .content-area main.site-main article header.entry-header {
               display: block;
               float: left;
-              margin-left: 17.2279792833%;
+              margin-left: 25.8419689249%;
               margin-right: -100%;
-              width: 82.772020742%; } }
+              width: 74.1580311004%; } }
           .hfeed .site-content .content-area main.site-main article .entry-content {
             clear: both; }
             @media only screen and (min-width: 768px) {
@@ -2855,9 +2860,9 @@ and Blueprint http://www.blueprintcss.org/
               .hfeed .site-content .content-area main.site-main article .entry-content {
                 display: block;
                 float: left;
-                margin-left: 17.2279792833%;
+                margin-left: 25.8419689249%;
                 margin-right: -100%;
-                width: 82.772020742%; } }
+                width: 74.1580311004%; } }
           .hfeed .site-content .content-area main.site-main article .entry-footer {
             clear: both; }
             @media only screen and (min-width: 768px) {
@@ -3399,6 +3404,19 @@ a {
   .widget ul {
     margin: 0;
     list-style: none; }
+    .widget ul a {
+      padding: 7px 0px 7px 5px;
+      border-bottom: 1px solid #eee;
+      text-decoration: none;
+      display: block;
+      font-family: Lato-Light, Avenir, Verdana, sans-serif;
+      font-style: normal;
+      font-weight: normal; }
+      .widget ul a:hover {
+        background: #eee;
+        color: #17a; }
+  .widget h1.widget-title {
+    margin-top: 5px; }
 
 /* Search widget */
 .widget_search .search-submit {

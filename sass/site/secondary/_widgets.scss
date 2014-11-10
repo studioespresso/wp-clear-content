@@ -8,6 +8,20 @@
 	ul {
 		margin: 0;
 		list-style: none;
+		a {
+			padding: 7px 0px 7px 5px;
+			border-bottom: 1px solid $color__border;
+			text-decoration: none;
+			display: block;
+			@include font(Lato-Light);
+			&:hover {
+				background: $color__border;
+				color: $color__link;
+			}
+		}
+	}
+	& h1.widget-title {
+		margin-top: 5px;
 	}
 }
 
