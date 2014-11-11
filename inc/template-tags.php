@@ -79,7 +79,7 @@ function clear_content_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		_x( '%s', 'post date', 'clear-content' ),
+			_x( '%s', 'post date', 'clear-content' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
