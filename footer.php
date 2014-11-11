@@ -20,6 +20,5 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<script src="https://get.gridsetapp.com/31357/overlay/"></script>
 </body>
 </html>
