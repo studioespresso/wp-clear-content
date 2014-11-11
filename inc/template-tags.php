@@ -50,12 +50,12 @@ function clear_content_post_nav() {
 	?>
 	<nav class="navigation post-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'clear-content' ); ?></h1>
-		<div class="nav-links">
+		<ul>
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'clear-content' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link',     'clear-content' ) );
+				previous_post_link( '<li class="nav-previous">%link</li>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'clear-content' ) );
+				next_post_link(     '<li class="nav-next">%link</li>',     _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link',     'clear-content' ) );
 			?>
-		</div><!-- .nav-links -->
+			</ul>
 	</nav><!-- .navigation -->
 	<?php
 }

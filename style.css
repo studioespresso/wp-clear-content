@@ -2722,7 +2722,7 @@ and Blueprint http://www.blueprintcss.org/
 #gridscreenwidthwrap {
   display: block !important; }
 
-body.home .hfeed, body.blog .hfeed, body.page .hfeed {
+body .hfeed {
   background-color: white;
   clear: both;
   display: block;
@@ -2730,20 +2730,20 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
   margin-left: 0;
   width: 100%; }
   @media only screen and (min-width: 768px) {
-    body.home .hfeed, body.blog .hfeed, body.page .hfeed {
+    body .hfeed {
       clear: both;
       display: block;
       float: left;
       margin-left: 0;
       width: 100%; } }
   @media only screen and (min-width: 990px) {
-    body.home .hfeed, body.blog .hfeed, body.page .hfeed {
+    body .hfeed {
       display: block;
       float: left;
       margin-left: 8.6139896416%;
       margin-right: -100%;
       width: 91.3860103837%; } }
-  body.home .hfeed .site-header, body.blog .hfeed .site-header, body.page .hfeed .site-header {
+  body .hfeed .site-header {
     clear: both;
     display: block;
     float: left;
@@ -2754,7 +2754,7 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
     box-sizing: border-box;
     padding-left: 1.683937825%;
     padding-right: 1.683937825%; }
-    body.home .hfeed .site-header .site-branding, body.blog .hfeed .site-header .site-branding, body.page .hfeed .site-header .site-branding {
+    body .hfeed .site-header .site-branding {
       clear: none;
       margin-top: 25px;
       display: block;
@@ -2762,7 +2762,7 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
       margin-left: 0;
       margin-right: -100%;
       width: 13.8601036333%; }
-    body.home .hfeed .site-header nav.main-navigation, body.blog .hfeed .site-header nav.main-navigation, body.page .hfeed .site-header nav.main-navigation {
+    body .hfeed .site-header nav.main-navigation {
       clear: none;
       margin-top: 25px;
       display: block;
@@ -2770,7 +2770,7 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
       margin-left: 17.2279792833%;
       margin-right: -100%;
       width: 74.1580311077%; }
-  body.home .hfeed .site-content, body.blog .hfeed .site-content, body.page .hfeed .site-content {
+  body .hfeed .site-content {
     margin-top: 20px;
     clear: both;
     display: block;
@@ -2778,14 +2778,14 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
     margin-left: 0;
     width: 100%; }
     @media only screen and (min-width: 768px) {
-      body.home .hfeed .site-content, body.blog .hfeed .site-content, body.page .hfeed .site-content {
+      body .hfeed .site-content {
         clear: both;
         display: block;
         float: left;
         margin-left: 0;
         width: 100%; } }
     @media only screen and (min-width: 990px) {
-      body.home .hfeed .site-content, body.blog .hfeed .site-content, body.page .hfeed .site-content {
+      body .hfeed .site-content {
         display: block;
         float: left;
         margin-left: 0;
@@ -2796,7 +2796,7 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
         box-sizing: border-box;
         padding-left: 1.683937825%;
         padding-right: 1.683937825%; } }
-    body.home .hfeed .site-content .content-area, body.blog .hfeed .site-content .content-area, body.page .hfeed .site-content .content-area {
+    body .hfeed .site-content .content-area {
       float: left;
       display: block;
       float: left;
@@ -2804,26 +2804,26 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
       margin-right: -100%;
       width: 87.8125%; }
       @media only screen and (min-width: 768px) {
-        body.home .hfeed .site-content .content-area, body.blog .hfeed .site-content .content-area, body.page .hfeed .site-content .content-area {
+        body .hfeed .site-content .content-area {
           display: block;
           float: left;
           margin-left: 0;
           margin-right: -100%;
           width: 74.3489583538%; } }
       @media only screen and (min-width: 990px) {
-        body.home .hfeed .site-content .content-area, body.blog .hfeed .site-content .content-area, body.page .hfeed .site-content .content-area {
+        body .hfeed .site-content .content-area {
           display: block;
           float: left;
           margin-left: 0;
           margin-right: -100%;
           width: 65.5440414831%; } }
-      body.home .hfeed .site-content .content-area main.site-main, body.blog .hfeed .site-content .content-area main.site-main, body.page .hfeed .site-content .content-area main.site-main {
+      body .hfeed .site-content .content-area main.site-main {
         display: block;
         float: left;
         margin-left: 0;
         margin-right: -100%;
         width: 100.0000000253%; }
-        body.home .hfeed .site-content .content-area main.site-main article, body.blog .hfeed .site-content .content-area main.site-main article, body.page .hfeed .site-content .content-area main.site-main article {
+        body .hfeed .site-content .content-area main.site-main article {
           clear: both;
           display: block;
           float: left;
@@ -2831,7 +2831,7 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
           margin-right: -100%;
           width: 100.0000000253%; }
           @media only screen and (min-width: 768px) {
-            body.home .hfeed .site-content .content-area main.site-main article .entry-meta, body.blog .hfeed .site-content .content-area main.site-main article .entry-meta, body.page .hfeed .site-content .content-area main.site-main article .entry-meta {
+            body .hfeed .site-content .content-area main.site-main article .entry-meta {
               display: block;
               float: left;
               margin-left: 0;
@@ -2843,7 +2843,7 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
               padding-left: 1.683937825%;
               padding-right: 1.683937825%; } }
           @media only screen and (min-width: 990px) {
-            body.home .hfeed .site-content .content-area main.site-main article .entry-meta, body.blog .hfeed .site-content .content-area main.site-main article .entry-meta, body.page .hfeed .site-content .content-area main.site-main article .entry-meta {
+            body .hfeed .site-content .content-area main.site-main article .entry-meta {
               display: block;
               float: left;
               margin-left: 0;
@@ -2855,307 +2855,83 @@ body.home .hfeed, body.blog .hfeed, body.page .hfeed {
               padding-left: 1.683937825%;
               padding-right: 1.683937825%; } }
           @media only screen and (min-width: 768px) {
-            body.home .hfeed .site-content .content-area main.site-main article header.entry-header, body.blog .hfeed .site-content .content-area main.site-main article header.entry-header, body.page .hfeed .site-content .content-area main.site-main article header.entry-header {
+            body .hfeed .site-content .content-area main.site-main article header.entry-header {
               display: block;
               float: left;
               margin-left: 17.2279792833%;
               margin-right: -100%;
               width: 82.772020742%; } }
           @media only screen and (min-width: 990px) {
-            body.home .hfeed .site-content .content-area main.site-main article header.entry-header, body.blog .hfeed .site-content .content-area main.site-main article header.entry-header, body.page .hfeed .site-content .content-area main.site-main article header.entry-header {
+            body .hfeed .site-content .content-area main.site-main article header.entry-header {
               display: block;
               float: left;
               margin-left: 25.8419689249%;
               margin-right: -100%;
               width: 74.1580311004%; } }
-          body.home .hfeed .site-content .content-area main.site-main article .entry-content, body.blog .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
+          body .hfeed .site-content .content-area main.site-main article .entry-content {
             clear: both; }
             @media only screen and (min-width: 768px) {
-              body.home .hfeed .site-content .content-area main.site-main article .entry-content, body.blog .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
+              body .hfeed .site-content .content-area main.site-main article .entry-content {
                 display: block;
                 float: left;
                 margin-left: 17.2279792833%;
                 margin-right: -100%;
                 width: 82.772020742%; } }
             @media only screen and (min-width: 990px) {
-              body.home .hfeed .site-content .content-area main.site-main article .entry-content, body.blog .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
+              body .hfeed .site-content .content-area main.site-main article .entry-content {
                 display: block;
                 float: left;
                 margin-left: 25.8419689249%;
                 margin-right: -100%;
                 width: 74.1580311004%;
                 margin-top: 0; } }
-          body.home .hfeed .site-content .content-area main.site-main article .entry-footer, body.blog .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+          body .hfeed .site-content .content-area main.site-main article .entry-footer {
             clear: both; }
             @media only screen and (min-width: 768px) {
-              body.home .hfeed .site-content .content-area main.site-main article .entry-footer, body.blog .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+              body .hfeed .site-content .content-area main.site-main article .entry-footer {
                 display: block;
                 float: left;
                 margin-left: 17.2279792833%;
                 margin-right: -100%;
                 width: 82.772020742%; } }
             @media only screen and (min-width: 990px) {
-              body.home .hfeed .site-content .content-area main.site-main article .entry-footer, body.blog .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+              body .hfeed .site-content .content-area main.site-main article .entry-footer {
                 display: block;
                 float: left;
                 margin-left: 25.8419689249%;
                 margin-right: -100%;
                 width: 74.1580311004%; } }
-      body.home .hfeed .site-content .content-area .comments-area, body.blog .hfeed .site-content .content-area .comments-area, body.page .hfeed .site-content .content-area .comments-area {
+      body .hfeed .site-content .content-area .comments-area {
         display: block;
         float: left;
         margin-left: 25.8419689249%;
         margin-right: -100%;
         width: 74.1580311004%;
         clear: both; }
-    body.home .hfeed .site-content .widget-area, body.blog .hfeed .site-content .widget-area, body.page .hfeed .site-content .widget-area {
+    body .hfeed .site-content .widget-area {
       float: none; }
       @media only screen and (min-width: 768px) {
-        body.home .hfeed .site-content .widget-area, body.blog .hfeed .site-content .widget-area, body.page .hfeed .site-content .widget-area {
+        body .hfeed .site-content .widget-area {
           display: block;
           float: left;
           margin-left: 76.9531250238%;
           margin-right: -100%;
           width: 23.0468749995%; } }
       @media only screen and (min-width: 990px) {
-        body.home .hfeed .site-content .widget-area, body.blog .hfeed .site-content .widget-area, body.page .hfeed .site-content .widget-area {
+        body .hfeed .site-content .widget-area {
           display: block;
           float: left;
           margin-left: 68.9119171331%;
           margin-right: -100%;
           width: 22.4740932579%; } }
-    body.home .hfeed .site-content .paging-navigation, body.blog .hfeed .site-content .paging-navigation, body.page .hfeed .site-content .paging-navigation {
+    body .hfeed .site-content .paging-navigation {
       display: block;
       float: left;
       margin-left: 8.6139896416%;
       margin-right: -100%;
       width: 91.3860103837%;
       clear: both; }
-body.home .site-footer, body.blog .site-footer, body.page .site-footer {
-  display: block;
-  float: left;
-  margin-left: 17.2279792833%;
-  margin-right: -100%;
-  width: 82.772020742%;
-  clear: both; }
-
-body.single .hfeed {
-  background-color: white;
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%; }
-  @media only screen and (min-width: 768px) {
-    body.single .hfeed {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%; } }
-  @media only screen and (min-width: 990px) {
-    body.single .hfeed {
-      display: block;
-      float: left;
-      margin-left: 8.6139896416%;
-      margin-right: -100%;
-      width: 91.3860103837%; } }
-  body.single .hfeed .site-header {
-    clear: both;
-    display: block;
-    float: left;
-    margin-left: 0;
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-left: 1.683937825%;
-    padding-right: 1.683937825%; }
-    body.single .hfeed .site-header .site-branding {
-      clear: none;
-      margin-top: 25px;
-      display: block;
-      float: left;
-      margin-left: 0;
-      margin-right: -100%;
-      width: 13.8601036333%; }
-    body.single .hfeed .site-header nav.main-navigation {
-      clear: none;
-      margin-top: 25px;
-      display: block;
-      float: left;
-      margin-left: 17.2279792833%;
-      margin-right: -100%;
-      width: 74.1580311077%; }
-  body.single .hfeed .site-content {
-    margin-top: 20px;
-    clear: both;
-    display: block;
-    float: left;
-    margin-left: 0;
-    width: 100%; }
-    @media only screen and (min-width: 768px) {
-      body.single .hfeed .site-content {
-        clear: both;
-        display: block;
-        float: left;
-        margin-left: 0;
-        width: 100%; } }
-    @media only screen and (min-width: 990px) {
-      body.single .hfeed .site-content {
-        display: block;
-        float: left;
-        margin-left: 0;
-        margin-right: -100%;
-        width: 100.0000000253%;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-left: 1.683937825%;
-        padding-right: 1.683937825%; } }
-    body.single .hfeed .site-content .content-area {
-      float: left;
-      display: block;
-      float: left;
-      margin-left: 0;
-      margin-right: -100%;
-      width: 87.8125%; }
-      @media only screen and (min-width: 768px) {
-        body.single .hfeed .site-content .content-area {
-          display: block;
-          float: left;
-          margin-left: 0;
-          margin-right: -100%;
-          width: 74.3489583538%; } }
-      @media only screen and (min-width: 990px) {
-        body.single .hfeed .site-content .content-area {
-          display: block;
-          float: left;
-          margin-left: 0;
-          margin-right: -100%;
-          width: 65.5440414831%; } }
-      body.single .hfeed .site-content .content-area main.site-main {
-        display: block;
-        float: left;
-        margin-left: 0;
-        margin-right: -100%;
-        width: 100.0000000253%; }
-        body.single .hfeed .site-content .content-area main.site-main article {
-          clear: both;
-          display: block;
-          float: left;
-          margin-left: 0;
-          margin-right: -100%;
-          width: 100.0000000253%; }
-          @media only screen and (min-width: 768px) {
-            body.single .hfeed .site-content .content-area main.site-main article .entry-meta {
-              display: block;
-              float: left;
-              margin-left: 0;
-              margin-right: -100%;
-              width: 100.0000000253%;
-              -moz-box-sizing: border-box;
-              -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-              padding-left: 1.683937825%;
-              padding-right: 1.683937825%; } }
-          @media only screen and (min-width: 990px) {
-            body.single .hfeed .site-content .content-area main.site-main article .entry-meta {
-              display: block;
-              float: left;
-              margin-left: 0;
-              margin-right: -100%;
-              width: 100.0000000253%;
-              -moz-box-sizing: border-box;
-              -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-              padding-left: 1.683937825%;
-              padding-right: 1.683937825%; } }
-          @media only screen and (min-width: 768px) {
-            body.single .hfeed .site-content .content-area main.site-main article header.entry-header {
-              display: block;
-              float: left;
-              margin-left: 0;
-              margin-right: -100%;
-              width: 100.0000000253%; } }
-          @media only screen and (min-width: 990px) {
-            body.single .hfeed .site-content .content-area main.site-main article header.entry-header {
-              display: block;
-              float: left;
-              margin-left: 0;
-              margin-right: -100%;
-              width: 100.0000000253%; } }
-          body.single .hfeed .site-content .content-area main.site-main article .entry-content {
-            clear: both; }
-            @media only screen and (min-width: 768px) {
-              body.single .hfeed .site-content .content-area main.site-main article .entry-content {
-                display: block;
-                float: left;
-                margin-left: 0;
-                margin-right: -100%;
-                width: 100.0000000253%; } }
-            @media only screen and (min-width: 990px) {
-              body.single .hfeed .site-content .content-area main.site-main article .entry-content {
-                display: block;
-                float: left;
-                margin-left: 0;
-                margin-right: -100%;
-                width: 100.0000000253%;
-                margin-top: 0; } }
-          body.single .hfeed .site-content .content-area main.site-main article .entry-footer {
-            clear: both; }
-            @media only screen and (min-width: 768px) {
-              body.single .hfeed .site-content .content-area main.site-main article .entry-footer {
-                display: block;
-                float: left;
-                margin-left: 0;
-                margin-right: -100%;
-                width: 100.0000000253%; } }
-            @media only screen and (min-width: 990px) {
-              body.single .hfeed .site-content .content-area main.site-main article .entry-footer {
-                display: block;
-                float: left;
-                margin-left: 0;
-                margin-right: -100%;
-                width: 100.0000000253%; } }
-      body.single .hfeed .site-content .content-area .post-navigation {
-        display: block;
-        float: left;
-        margin-left: 0;
-        margin-right: -100%;
-        width: 100.0000000253%;
-        clear: both; }
-      body.single .hfeed .site-content .content-area .comments-area {
-        display: block;
-        float: left;
-        margin-left: 0;
-        margin-right: -100%;
-        width: 100.0000000253%;
-        clear: both; }
-    body.single .hfeed .site-content .widget-area {
-      float: none; }
-      @media only screen and (min-width: 768px) {
-        body.single .hfeed .site-content .widget-area {
-          display: block;
-          float: left;
-          margin-left: 76.9531250238%;
-          margin-right: -100%;
-          width: 23.0468749995%; } }
-      @media only screen and (min-width: 990px) {
-        body.single .hfeed .site-content .widget-area {
-          display: block;
-          float: left;
-          margin-left: 68.9119171331%;
-          margin-right: -100%;
-          width: 22.4740932579%; } }
-    body.single .hfeed .site-content .paging-navigation {
-      display: block;
-      float: left;
-      margin-left: 8.6139896416%;
-      margin-right: -100%;
-      width: 91.3860103837%;
-      clear: both; }
-body.single .site-footer {
+body .site-footer {
   display: block;
   float: left;
   margin-left: 17.2279792833%;
@@ -3575,14 +3351,12 @@ a {
   overflow: hidden; }
 
 .comment-navigation .nav-previous,
-.paging-navigation .nav-previous,
-.post-navigation .nav-previous {
+.paging-navigation .nav-previous {
   float: left;
   width: 50%; }
 
 .comment-navigation .nav-next,
-.paging-navigation .nav-next,
-.post-navigation .nav-next {
+.paging-navigation .nav-next {
   float: right;
   text-align: right;
   width: 50%; }
@@ -3663,16 +3437,16 @@ a {
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
-.widget {
+.widget, .post-navigation {
   margin: 0 0 1.5em;
   border-top: 1px solid #d4d4d4;
   /* Make sure select elements fit in widgets */ }
-  .widget select {
+  .widget select, .post-navigation select {
     max-width: 100%; }
-  .widget ul {
+  .widget ul, .post-navigation ul {
     margin: 0;
     list-style: none; }
-    .widget ul a {
+    .widget ul a, .post-navigation ul a {
       padding: 7px 0px 7px 5px;
       border-bottom: 1px solid #eee;
       text-decoration: none;
@@ -3680,10 +3454,10 @@ a {
       font-family: Lato-Light, Avenir, Verdana, sans-serif;
       font-style: normal;
       font-weight: normal; }
-      .widget ul a:hover {
+      .widget ul a:hover, .post-navigation ul a:hover {
         background: #eee;
         color: #17a; }
-  .widget h1.widget-title {
+  .widget h1.widget-title, .post-navigation h1.widget-title {
     margin-top: 5px; }
 
 /* Search widget */
