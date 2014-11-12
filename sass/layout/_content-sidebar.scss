@@ -113,52 +113,66 @@ body {
 	}
 }
 
-body.single .hfeed .site-content .content-area main.site-main, body.page .hfeed .site-content .content-area main.site-main {
-	& article {
-		clear: both;
+body.single .hfeed .site-content .content-area main.site-main, body.page .hfeed {
+	& .site-content .content-area main.site-main {
+		& article {
+			clear: both;
+			@include gs-media(m, max) {
+				@include gs-pad(m, padinfull);
+			}
+			@include gs-media(t, min) {
+			};
+			& header.entry-header {
+				@include gs-media (t, min) {
+					@include gs-span(t, all);
+					@include gs-pad(t, padinfull);
+				}
+				@include gs-media (d, min) {
+
+				}
+			}
+			& .entry-content {
+				@include gs-media (t, min) {
+					@include gs-span(t, all);
+					@include gs-pad(t, padinfull);
+				}
+				@include gs-media (d, min) {
+				}
+				clear: both;
+			}
+			& .entry-footer {
+				@include gs-media (t, min) {
+					@include gs-span(t, all);
+					@include gs-pad(t, padinfull);
+
+				}
+				@include gs-media (d, min) {
+				}
+				clear: both;
+			}
+		}
+		& .comments-area {
 		@include gs-media(m, max) {
+			@include gs-span(m, all);
 			@include gs-pad(m, padinfull);
 		}
-		@include gs-media(t, min) {
-		};
-		& header.entry-header {
-			@include gs-media (t, min) {
-				@include gs-span(t, all);
-				@include gs-pad(t, padinfull);
-			}
-			@include gs-media (d, min) {
+		@include gs-media (t, min) {
+			@include gs-span(t, all);
+			@include gs-pad(t, padinfull);
+		}
+		clear: both;
+		}
+	}
+	& .site-footer {
+		@include gs-media(m, max) {
+			@include gs-span(m, all);
+			@include gs-pad(m, padinfull);
+		}
+		@include gs-media (t, min) {
+			@include gs-span(t, all);
+			@include gs-pad(t, padinfull);
+		}
 
-			}
-		}
-		& .entry-content {
-			@include gs-media (t, min) {
-				@include gs-span(t, all);
-				@include gs-pad(t, padinfull);
-			}
-			@include gs-media (d, min) {
-			}
-			clear: both;
-		}
-		& .entry-footer {
-			@include gs-media (t, min) {
-				@include gs-span(t, all);
-				@include gs-pad(t, padinfull);
-
-			}
-			@include gs-media (d, min) {
-			}
-			clear: both;
-		}
-	}
-	& .comments-area {
-	@include gs-media(m, max) {
-		@include gs-span(m, all);
-		@include gs-pad(m, padinfull);
-	}
-	@include gs-media (t, min) {
-		@include gs-span(t, all);
-		@include gs-pad(t, padinfull);
-	}
-	clear: both;
+		clear: both;
 	}
 }

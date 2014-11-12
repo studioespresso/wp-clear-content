@@ -10,7 +10,7 @@ h1.site-title {
 h1.entry-title {
 	@include font-size(3);
 	@include font(Lato-Regular);
-	background: red;
+	-ms-word-wrap: break-word;
 	word-wrap: break-word;
 	a {
 		text-decoration: none;

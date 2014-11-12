@@ -2939,17 +2939,17 @@ body .site-footer {
   width: 82.772020742%;
   clear: both; }
 
-body.single .hfeed .site-content .content-area main.site-main article, body.page .hfeed .site-content .content-area main.site-main article {
+body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article, body.page .hfeed .site-content .content-area main.site-main article {
   clear: both; }
   @media only screen and (max-width: 767px) {
-    body.single .hfeed .site-content .content-area main.site-main article, body.page .hfeed .site-content .content-area main.site-main article {
+    body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article, body.page .hfeed .site-content .content-area main.site-main article {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       padding-left: 3.125%;
       padding-right: 3.125%; } }
   @media only screen and (min-width: 768px) {
-    body.single .hfeed .site-content .content-area main.site-main article header.entry-header, body.page .hfeed .site-content .content-area main.site-main article header.entry-header {
+    body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article header.entry-header, body.page .hfeed .site-content .content-area main.site-main article header.entry-header {
       clear: both;
       display: block;
       float: left;
@@ -2960,10 +2960,10 @@ body.single .hfeed .site-content .content-area main.site-main article, body.page
       box-sizing: border-box;
       padding-left: 2.60416667%;
       padding-right: 2.60416667%; } }
-  body.single .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
+  body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
     clear: both; }
     @media only screen and (min-width: 768px) {
-      body.single .hfeed .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
+      body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article .entry-content, body.page .hfeed .site-content .content-area main.site-main article .entry-content {
         clear: both;
         display: block;
         float: left;
@@ -2974,10 +2974,10 @@ body.single .hfeed .site-content .content-area main.site-main article, body.page
         box-sizing: border-box;
         padding-left: 2.60416667%;
         padding-right: 2.60416667%; } }
-  body.single .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+  body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
     clear: both; }
     @media only screen and (min-width: 768px) {
-      body.single .hfeed .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
+      body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main article .entry-footer, body.page .hfeed .site-content .content-area main.site-main article .entry-footer {
         clear: both;
         display: block;
         float: left;
@@ -2988,10 +2988,10 @@ body.single .hfeed .site-content .content-area main.site-main article, body.page
         box-sizing: border-box;
         padding-left: 2.60416667%;
         padding-right: 2.60416667%; } }
-body.single .hfeed .site-content .content-area main.site-main .comments-area, body.page .hfeed .site-content .content-area main.site-main .comments-area {
+body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main .comments-area, body.page .hfeed .site-content .content-area main.site-main .comments-area {
   clear: both; }
   @media only screen and (max-width: 767px) {
-    body.single .hfeed .site-content .content-area main.site-main .comments-area, body.page .hfeed .site-content .content-area main.site-main .comments-area {
+    body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main .comments-area, body.page .hfeed .site-content .content-area main.site-main .comments-area {
       clear: both;
       display: block;
       float: left;
@@ -3003,7 +3003,33 @@ body.single .hfeed .site-content .content-area main.site-main .comments-area, bo
       padding-left: 3.125%;
       padding-right: 3.125%; } }
   @media only screen and (min-width: 768px) {
-    body.single .hfeed .site-content .content-area main.site-main .comments-area, body.page .hfeed .site-content .content-area main.site-main .comments-area {
+    body.single .hfeed .site-content .content-area main.site-main .site-content .content-area main.site-main .comments-area, body.page .hfeed .site-content .content-area main.site-main .comments-area {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 2.60416667%;
+      padding-right: 2.60416667%; } }
+body.single .hfeed .site-content .content-area main.site-main .site-footer, body.page .hfeed .site-footer {
+  clear: both; }
+  @media only screen and (max-width: 767px) {
+    body.single .hfeed .site-content .content-area main.site-main .site-footer, body.page .hfeed .site-footer {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 3.125%;
+      padding-right: 3.125%; } }
+  @media only screen and (min-width: 768px) {
+    body.single .hfeed .site-content .content-area main.site-main .site-footer, body.page .hfeed .site-footer {
       clear: both;
       display: block;
       float: left;
@@ -3133,7 +3159,7 @@ h1.entry-title {
   font-family: Lato-Regular, Avenir, Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
-  background: red;
+  -ms-word-wrap: break-word;
   word-wrap: break-word; }
   h1.entry-title a {
     text-decoration: none;
@@ -3568,6 +3594,7 @@ a {
 .entry-summary,
 .comments-area {
   margin: 1.5em 0 0;
+  -ms-word-wrap: break-word;
   word-wrap: break-word; }
 
 .page-links {
