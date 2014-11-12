@@ -2868,17 +2868,17 @@ body .hfeed {
               margin-left: 25.8419689249%;
               margin-right: -100%;
               width: 74.1580311004%; } }
-          body .hfeed .site-content .content-area main.site-main article .entry-content {
+          body .hfeed .site-content .content-area main.site-main article .entry-content, body .hfeed .site-content .content-area main.site-main article .entry-summary {
             clear: both; }
             @media only screen and (min-width: 768px) {
-              body .hfeed .site-content .content-area main.site-main article .entry-content {
+              body .hfeed .site-content .content-area main.site-main article .entry-content, body .hfeed .site-content .content-area main.site-main article .entry-summary {
                 display: block;
                 float: left;
                 margin-left: 17.2279792833%;
                 margin-right: -100%;
                 width: 82.772020742%; } }
             @media only screen and (min-width: 990px) {
-              body .hfeed .site-content .content-area main.site-main article .entry-content {
+              body .hfeed .site-content .content-area main.site-main article .entry-content, body .hfeed .site-content .content-area main.site-main article .entry-summary {
                 display: block;
                 float: left;
                 margin-left: 25.8419689249%;

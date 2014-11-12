@@ -65,7 +65,7 @@ body {
 								@include gs-span(d, 4, 12);
 							}
 						}
-						& .entry-content {
+						& .entry-content, .entry-summary {
 							@include gs-media (t, min) {
 								@include gs-span(d, 3, 12);
 							}
