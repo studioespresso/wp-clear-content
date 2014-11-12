@@ -3132,7 +3132,9 @@ h1.entry-title {
   font-size: 3rem;
   font-family: Lato-Regular, Avenir, Verdana, sans-serif;
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+  background: red;
+  word-wrap: break-word; }
   h1.entry-title a {
     text-decoration: none;
     color: #17a; }
@@ -3563,8 +3565,10 @@ a {
 
 .page-content,
 .entry-content,
-.entry-summary {
-  margin: 1.5em 0 0; }
+.entry-summary,
+.comments-area {
+  margin: 1.5em 0 0;
+  word-wrap: break-word; }
 
 .page-links {
   clear: both;
