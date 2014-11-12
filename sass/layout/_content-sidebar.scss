@@ -113,7 +113,7 @@ body {
 	}
 }
 
-body.single .hfeed .site-content .content-area main.site-main {
+body.single .hfeed .site-content .content-area main.site-main, body.page .hfeed .site-content .content-area main.site-main {
 	& article {
 		clear: both;
 		@include gs-media(m, max) {
