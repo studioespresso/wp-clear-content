@@ -113,7 +113,7 @@ body {
 	}
 }
 
-body.single .hfeed .site-content .content-area main.site-main, body.page .hfeed {
+body.single, body.page {
 	& .site-content .content-area main.site-main {
 		& article {
 			clear: both;
@@ -164,6 +164,7 @@ body.single .hfeed .site-content .content-area main.site-main, body.page .hfeed 
 		}
 	}
 	& .site-footer {
+		clear: both;
 		@include gs-media(m, max) {
 			@include gs-span(m, all);
 			@include gs-pad(m, padinfull);
@@ -172,7 +173,5 @@ body.single .hfeed .site-content .content-area main.site-main, body.page .hfeed 
 			@include gs-span(t, all);
 			@include gs-pad(t, padinfull);
 		}
-
-		clear: both;
 	}
 }
