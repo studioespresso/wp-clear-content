@@ -9,15 +9,18 @@
 	ul {
 		margin: 0;
 		list-style: none;
-		a {
-			padding: 7px 0px 7px 5px;
+		li {
 			border-bottom: 1px solid $color__border;
+			padding: 7px 0px 7px 5px;
 			text-decoration: none;
-			display: block;
 			@include font(Lato-Light);
 			&:hover {
 				background: $color__border;
-				color: $color__link;
+			}
+			& a {
+				text-decoration: none;
+				&:hover {
+				}
 			}
 		}
 	}

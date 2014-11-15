@@ -896,17 +896,17 @@ a {
   .widget ul, .post-navigation ul {
     margin: 0;
     list-style: none; }
-    .widget ul a, .post-navigation ul a {
-      padding: 7px 0px 7px 5px;
+    .widget ul li, .post-navigation ul li {
       border-bottom: 1px solid #eee;
+      padding: 7px 0px 7px 5px;
       text-decoration: none;
-      display: block;
       font-family: Lato-Light, Avenir, Verdana, sans-serif;
       font-style: normal;
       font-weight: normal; }
-      .widget ul a:hover, .post-navigation ul a:hover {
-        background: #eee;
-        color: #17a; }
+      .widget ul li:hover, .post-navigation ul li:hover {
+        background: #eee; }
+      .widget ul li a, .post-navigation ul li a {
+        text-decoration: none; }
   .widget h1.widget-title, .post-navigation h1.widget-title {
     margin-top: 5px; }
 
