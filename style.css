@@ -510,6 +510,22 @@ h1.entry-title {
     text-decoration: none;
     color: #17a; }
 
+h1 {
+  font-size: 30px;
+  font-size: 3rem; }
+
+h2 {
+  font-size: 25px;
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 22px;
+  font-size: 2.2rem; }
+
+h4 {
+  font-size: 20px;
+  font-size: 2rem; }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -520,7 +536,13 @@ dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  margin: 0 1.5em; }
+  margin: 0 1.5em;
+  border-left: 5px solid #17a;
+  padding-left: 1.5em; }
+  blockquote cite {
+    clear: both;
+    display: block;
+    margin-top: 1em; }
 
 address {
   margin: 0 0 1.5em; }
@@ -549,7 +571,9 @@ pre {
 code, kbd, tt, var {
   font-size: 15px;
   font-size: 1.5rem;
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  background-color: #CCC;
+  padding: 3px; }
 
 abbr, acronym {
   border-bottom: 1px dotted #666;
@@ -902,7 +926,17 @@ a {
       text-decoration: none;
       font-family: Lato-Light, Avenir, Verdana, sans-serif;
       font-style: normal;
-      font-weight: normal; }
+      font-weight: normal;
+      white-space: pre-wrap;
+      /* css-3 */
+      white-space: -moz-pre-wrap;
+      /* Mozilla, since 1999 */
+      white-space: -pre-wrap;
+      /* Opera 4-6 */
+      white-space: -o-pre-wrap;
+      /* Opera 7 */
+      word-wrap: break-word;
+      /* Internet Explorer 5.5+ */ }
       .widget ul li:hover, .post-navigation ul li:hover {
         background: #eee; }
       .widget ul li a, .post-navigation ul li a {
