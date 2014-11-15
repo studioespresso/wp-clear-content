@@ -108,7 +108,10 @@ body {
 		}
 	}
 	& .site-footer {
-		@include gs-span(d, 3, 12);
+		@include gs-media(d, min) {
+			@include gs-span(d, all);
+			@include gs-pad(d, padin);
+		}
 		clear: both;
 	}
 }
@@ -169,9 +172,13 @@ body.single, body.page {
 			@include gs-span(m, all);
 			@include gs-pad(m, padinfull);
 		}
-		@include gs-media (t, min) {
+		@include gs-media(t, min) {
 			@include gs-span(t, all);
 			@include gs-pad(t, padinfull);
+		}
+		@include gs-media(d, min) {
+			@include gs-span(d, all);
+			@include gs-pad(d, padinfull);
 		}
 	}
 }

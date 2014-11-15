@@ -277,12 +277,19 @@ body .hfeed {
       width: 91.3860103837%;
       clear: both; }
 body .site-footer {
-  display: block;
-  float: left;
-  margin-left: 17.2279792833%;
-  margin-right: -100%;
-  width: 82.772020742%;
   clear: both; }
+  @media only screen and (min-width: 990px) {
+    body .site-footer {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 1.683937825%;
+      padding-right: 1.683937825%; } }
 
 body.single .site-content .content-area main.site-main article, body.page .site-content .content-area main.site-main article {
   clear: both; }
@@ -385,6 +392,18 @@ body.single .site-footer, body.page .site-footer {
       box-sizing: border-box;
       padding-left: 2.60416667%;
       padding-right: 2.60416667%; } }
+  @media only screen and (min-width: 990px) {
+    body.single .site-footer, body.page .site-footer {
+      clear: both;
+      display: block;
+      float: left;
+      margin-left: 0;
+      width: 100%;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 3.36787565%;
+      padding-right: 3.36787565%; } }
 
 /*--------------------------------------------------------------
 1.0 Reset
@@ -926,21 +945,23 @@ a {
       text-decoration: none;
       font-family: Lato-Light, Avenir, Verdana, sans-serif;
       font-style: normal;
-      font-weight: normal;
-      white-space: pre-wrap;
-      /* css-3 */
-      white-space: -moz-pre-wrap;
-      /* Mozilla, since 1999 */
-      white-space: -pre-wrap;
-      /* Opera 4-6 */
-      white-space: -o-pre-wrap;
-      /* Opera 7 */
-      word-wrap: break-word;
-      /* Internet Explorer 5.5+ */ }
+      font-weight: normal; }
       .widget ul li:hover, .post-navigation ul li:hover {
         background: #eee; }
       .widget ul li a, .post-navigation ul li a {
-        text-decoration: none; }
+        text-decoration: none;
+        white-space: pre-wrap;
+        /* css-3 */
+        white-space: -moz-pre-wrap;
+        /* Mozilla, since 1999 */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* Internet Explorer 5.5+ */ }
+      .widget ul li ul li:last-of-type, .post-navigation ul li ul li:last-of-type {
+        border: none; }
   .widget h1.widget-title, .post-navigation h1.widget-title {
     margin-top: 5px; }
 
