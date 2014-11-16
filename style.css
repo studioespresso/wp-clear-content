@@ -821,6 +821,11 @@ a {
     float: left;
     position: relative;
     margin-right: 10%; }
+    .main-navigation li ul.sub-menu {
+      background: white;
+      padding: 5px; }
+      .main-navigation li ul.sub-menu li {
+        padding: 5px; }
   .main-navigation a {
     display: block;
     text-decoration: none; }

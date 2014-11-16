@@ -50,8 +50,14 @@
 		float: left;
 		position: relative;
 		margin-right: 10%;
-
 		&:hover > a {
+		}
+		& ul.sub-menu {
+			background: white;
+			padding: 5px;
+			& li {
+				padding: 5px;
+			}
 		}
 	}
 	a {
