@@ -66,6 +66,14 @@ function clear_content_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	// Create a custom image size for Site Logo.
+	add_image_size( 'clear_content_logo', 200, 200 );
+
+	// Declare theme support for Site Logo.
+	add_theme_support( 'site-logo', array(
+	    'size' => 'clear_content_logo',
+	) );
 }
 endif; // clear_content_setup
 add_action( 'after_setup_theme', 'clear_content_setup' );
