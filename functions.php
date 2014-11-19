@@ -74,6 +74,7 @@ function clear_content_setup() {
 	add_theme_support( 'site-logo', array(
 	    'size' => 'clear_content_logo',
 	) );
+	add_theme_support( 'post-thumbnails', array( 'post' ));
 }
 endif; // clear_content_setup
 add_action( 'after_setup_theme', 'clear_content_setup' );

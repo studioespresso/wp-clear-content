@@ -9,6 +9,8 @@
 		<h1 class="entry-title">
 			<?php the_title(); ?>
 		</h1>
+		 	<?php the_post_thumbnail( $size, $attr ); ?>
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
