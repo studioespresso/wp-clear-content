@@ -46,3 +46,10 @@
 		text-transform: uppercase;
 	}
 }
+
+article {
+ img.wp-post-image {
+		padding-bottom: 5px;
+		border-bottom: 1px solid $color__border;
+	}
+}

@@ -15,6 +15,8 @@
 		<h1 class="entry-title">
 			<?php the_title( sprintf( '<a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a>' ); ?>
 		</h1>
+		<?php the_post_thumbnail( $size, $attr ); ?>
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
