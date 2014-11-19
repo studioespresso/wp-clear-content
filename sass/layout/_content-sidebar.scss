@@ -12,14 +12,10 @@ body {
 			@include gs-span(d, all);
 			@include gs-pad(d, padin);
 			& .site-branding {
-				clear: none;
-				margin-top: 25px;
 				@include gs-span(d, 1, 2);
 			}
 			& nav.main-navigation {
-				clear: none;
-				margin-top: 25px;
-				@include gs-span(d, 3, 11);
+				@include gs-span(d, 3, 8);
 			}
 		}
 		& .site-content {

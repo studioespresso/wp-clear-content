@@ -100,21 +100,17 @@ body .hfeed {
     padding-left: 1.683937825%;
     padding-right: 1.683937825%; }
     body .hfeed .site-header .site-branding {
-      clear: none;
-      margin-top: 25px;
       display: block;
       float: left;
       margin-left: 0;
       margin-right: -100%;
       width: 13.8601036333%; }
     body .hfeed .site-header nav.main-navigation {
-      clear: none;
-      margin-top: 25px;
       display: block;
       float: left;
       margin-left: 17.2279792833%;
       margin-right: -100%;
-      width: 74.1580311077%; }
+      width: 48.3160621998%; }
   body .hfeed .site-content {
     margin-top: 20px;
     clear: both;
@@ -788,47 +784,41 @@ a {
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
-.main-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%;
-  border-bottom: 1px solid black;
-  color: #17a;
-  font-size: 21px;
-  font-size: 2.1rem; }
-  .main-navigation ul {
+.main-navigation ul.nav-menu {
+  list-style: none;
+  margin: 0; }
+  .main-navigation ul.nav-menu ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     list-style: none;
-    margin: 0;
-    padding-left: 0; }
-    .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5em;
+    position: absolute;
+    top: 1.5em;
+    left: -999em;
+    z-index: 99999; }
+    .main-navigation ul.nav-menu ul ul {
       left: -999em;
-      z-index: 99999; }
-      .main-navigation ul ul ul {
-        left: -999em;
-        top: 0; }
-      .main-navigation ul ul li:hover > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
-    .main-navigation ul li:hover > ul {
-      left: auto; }
-  .main-navigation li {
-    float: left;
-    position: relative;
-    margin-right: 10%; }
-    .main-navigation li ul.sub-menu {
-      background: white;
+      top: 0; }
+    .main-navigation ul.nav-menu ul li:hover > ul {
+      left: 100%; }
+  .main-navigation ul.nav-menu li:hover > ul {
+    left: auto; }
+.main-navigation li {
+  position: relative;
+  margin-right: 4%;
+  float: left; }
+  .main-navigation li:last-of-type {
+    margin-right: 0; }
+  .main-navigation li ul.sub-menu {
+    background: white;
+    padding: 5px; }
+    .main-navigation li ul.sub-menu li {
       padding: 5px; }
-      .main-navigation li ul.sub-menu li {
-        padding: 5px; }
-  .main-navigation a {
-    display: block;
-    text-decoration: none; }
+.main-navigation a {
+  display: block;
+  text-decoration: none; }
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a {
+  background: red; }
 
 /* Small menu */
 .menu-toggle {
