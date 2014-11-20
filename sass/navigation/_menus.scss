@@ -1,4 +1,5 @@
 .main-navigation {
+	margin-top: 15px;
 	ul.nav-menu {
 		list-style: none;
 		margin: 0;
@@ -9,7 +10,6 @@
 			top: 1.5em;
 			left: -999em;
 			z-index: 99999;
-
 			ul {
 				left: -999em;
 				top: 0;
@@ -36,20 +36,13 @@
 		}
 	}
 	li {
+		float: left;
 		position: relative;
 		margin-right: 4%;
-		float: left;
 		&:last-of-type {
 			margin-right: 0;
 		}
 		&:hover > a {
-		}
-		& ul.sub-menu {
-			background: white;
-			padding: 5px;
-			& li {
-				padding: 5px;
-			}
 		}
 	}
 	a {

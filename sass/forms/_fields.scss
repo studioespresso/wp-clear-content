@@ -52,3 +52,12 @@ textarea {
 	vertical-align: top; /* Improves readability and alignment in all browsers */
 	width: 100%;
 }
+
+form#main-search {
+	margin-top: 15px;
+	& input {
+		width: 97%;
+		border: 0;
+		border-bottom: 1px solid $color__border;
+	}
+}

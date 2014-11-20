@@ -1,5 +1,5 @@
 <div class="site-search">
-	<form action="/" method="get">
+	<form id="main-search" action="/" method="get">
 		<fieldset>
 			<input type="search" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="Search" />
 			<input type="hidden" value="post" name="post_type" id="post_type" />
