@@ -54,10 +54,49 @@ textarea {
 }
 
 form#main-search {
+	font: normal 16px/1 'Genericons';
 	margin-top: 15px;
-	& input {
-		width: 97%;
-		border: 0;
-		border-bottom: 1px solid $color__border;
+	input {
+		width: 75%;
+		border: none;
+	}
+	button#search-submit {
+		color: darken($color__border, 15%);
+		background: none;
+		border: none;
+		box-shadow: none;
+		display: inline-block;
+		margin-bottom: 0px;
+		font: normal 16px/1 'Genericons';
+		&::after {
+			content: '\f400';
+		}
 	}
 }
+
+.search-field::-webkit-input-placeholder {
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+.search-field:-moz-placeholder { /* Firefox 18- */
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+.search-field::-moz-placeholder { /* Firefox 19+ */
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+.search-field:-ms-input-placeholder {
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+
+
+
+
+
+
