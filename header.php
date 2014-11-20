@@ -33,6 +33,7 @@
 			<button class="menu-toggle"><?php _e( 'Primary Menu', 'clear-content' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
+		<?php get_search_form( true ); ?>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
