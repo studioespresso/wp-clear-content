@@ -16,8 +16,17 @@
 			}
 
 			li {
+				float: left;
+				position: relative;
+				margin-right: 4%;
+				background: white;
+				min-width: 200px;
+				padding: 5px;
 				&:hover > ul {
 					left: 100%;
+				}
+				&:hover {
+					background: $color__link;
 				}
 			}
 
