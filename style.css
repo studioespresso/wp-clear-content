@@ -101,28 +101,45 @@ body .hfeed {
       padding-left: 1.683937825%;
       padding-right: 1.683937825%; } }
   body .hfeed .site-header .site-branding {
-    display: block;
-    float: left;
-    margin-left: 0;
-    margin-right: -100%;
-    width: 13.8601036333%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-left: 3.36787565%;
-    padding-right: 3.36787565%; }
-  body .hfeed .site-header nav.main-navigation {
-    display: block;
-    float: left;
-    margin-left: 17.2279792833%;
-    margin-right: -100%;
-    width: 56.9300518369%; }
-  body .hfeed .site-header .site-search {
-    display: block;
-    float: left;
-    margin-left: 68.9119171331%;
-    margin-right: -100%;
-    width: 22.4740932579%; }
+    text-align: center; }
+    @media only screen and (min-width: 990px) {
+      body .hfeed .site-header .site-branding {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        width: 13.8601036333%; } }
+  @media only screen and (min-width: 768px) {
+    body .hfeed .site-header nav.main-navigation {
+      display: block;
+      float: left;
+      margin-left: 12.8255208384%;
+      margin-right: -100%;
+      width: 61.5234375154%; } }
+  @media only screen and (min-width: 990px) {
+    body .hfeed .site-header nav.main-navigation {
+      display: block;
+      float: left;
+      margin-left: 17.2279792833%;
+      margin-right: -100%;
+      width: 56.9300518369%; } }
+  @media only screen and (max-width: 767px) {
+    body .hfeed .site-header .site-search {
+      clear: both; } }
+  @media only screen and (min-width: 768px) {
+    body .hfeed .site-header .site-search {
+      display: block;
+      float: left;
+      margin-left: 76.9531250238%;
+      margin-right: -100%;
+      width: 23.0468749995%; } }
+  @media only screen and (min-width: 990px) {
+    body .hfeed .site-header .site-search {
+      display: block;
+      float: left;
+      margin-left: 68.9119171331%;
+      margin-right: -100%;
+      width: 22.4740932579%; } }
   body .hfeed .site-content {
     margin-top: 20px;
     clear: both;
@@ -522,7 +539,10 @@ h1 {
 
 h1.site-title {
   font-size: 30px;
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin-top: 10px; }
+  h1.site-title a {
+    text-decoration: none; }
 
 h2 {
   font-size: 25px;
@@ -1265,7 +1285,8 @@ form#main-search {
   margin-top: 15px; }
   form#main-search input {
     width: 75%;
-    border: none; }
+    border: none;
+    border-bottom: 1px solid #eee; }
   form#main-search button#search-submit {
     color: #c8c8c8;
     background: none;
@@ -1273,7 +1294,8 @@ form#main-search {
     box-shadow: none;
     display: inline-block;
     margin-bottom: 0px;
-    font: normal 16px/1 'Genericons'; }
+    font: normal 16px/1 'Genericons';
+    padding: 0; }
     form#main-search button#search-submit::after {
       content: '\f400'; }
     form#main-search button#search-submit input:focus {
@@ -1314,7 +1336,7 @@ a {
 5.2 Menus
 --------------------------------------------------------------*/
 .main-navigation {
-  margin-top: 15px; }
+  margin-top: 25px; }
   .main-navigation ul.nav-menu {
     list-style: none;
     margin: 0; }
@@ -1326,7 +1348,8 @@ a {
       left: -999em;
       z-index: 99999; }
       .main-navigation ul.nav-menu ul ul {
-        left: -999em; }
+        left: -999em;
+        top: 0; }
       .main-navigation ul.nav-menu ul li {
         float: left;
         position: relative;
@@ -1336,7 +1359,7 @@ a {
         .main-navigation ul.nav-menu ul li:hover > ul {
           left: 100%; }
         .main-navigation ul.nav-menu ul li:hover {
-          background: #17a; }
+          background: #eee; }
     .main-navigation ul.nav-menu li:hover > ul {
       left: auto; }
   .main-navigation li {
@@ -1529,9 +1552,8 @@ a {
   clear: both;
   margin: 0 0 1.5em; }
 
-@media only screen and (min-width: 990px) {
-  .entry-header, .entry-meta {
-    border-top: 1px solid #eee; } }
+.entry-header, .entry-meta {
+  border-top: 1px solid #eee; }
 
 .entry-meta a {
   text-decoration: none;

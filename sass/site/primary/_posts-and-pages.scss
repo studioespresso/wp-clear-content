@@ -31,9 +31,7 @@
 }
 
 .entry-header, .entry-meta {
-	@include gs-media(d, min) {
 	border-top: 1px solid $color__border;
-	};
 }
 
 .entry-meta {

@@ -59,6 +59,7 @@ form#main-search {
 	input {
 		width: 75%;
 		border: none;
+		border-bottom: 1px solid $color__border;
 	}
 	button#search-submit {
 		color: darken($color__border, 15%);
@@ -68,6 +69,7 @@ form#main-search {
 		display: inline-block;
 		margin-bottom: 0px;
 		font: normal 16px/1 'Genericons';
+		padding: 0;
 		&::after {
 			content: '\f400';
 		}

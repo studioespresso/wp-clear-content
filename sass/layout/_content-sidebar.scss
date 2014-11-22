@@ -14,15 +14,37 @@ body {
 				@include gs-pad(d, padin);
 			}
 			& .site-branding {
-				@include gs-span(d, 1, 2);
-				@include gs-pad(d, padinfull);
+				@include gs-media(m, max) {
+				}
+				@include gs-media(t, min) {
+
+				}
+				@include gs-media(d, min) {
+					@include gs-span(d, 1, 2);
+				}
+				text-align: center;
 			}
 			& nav.main-navigation {
-				@include gs-span(d, 3, 9);
-
+				@include gs-media(m, max) {
+				}
+				@include gs-media(t, min) {
+					@include gs-span(t, 2, 6);
+				}
+				@include gs-media(d, min) {
+					@include gs-span(d, 3, 9);
+				}
 			}
 			& .site-search {
-				@include gs-span(d, 9, 11);
+				@include gs-media(m, max) {
+					clear:both;
+				}
+				@include gs-media(t, min) {
+					@include gs-span(t, 7, 8);
+
+				}
+				@include gs-media(d, min) {
+					@include gs-span(d, 9, 11);
+				}
 			}
 		}
 		& .site-content {

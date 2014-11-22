@@ -1,5 +1,5 @@
 .main-navigation {
-	margin-top: 15px;
+	margin-top: 25px;
 	ul.nav-menu {
 		list-style: none;
 		margin: 0;
@@ -12,6 +12,7 @@
 			z-index: 99999;
 			ul {
 				left: -999em;
+				top: 0;
 			}
 
 			li {
@@ -24,7 +25,7 @@
 					left: 100%;
 				}
 				&:hover {
-					background: $color__link;
+					background: $color__border;
 				}
 			}
 
