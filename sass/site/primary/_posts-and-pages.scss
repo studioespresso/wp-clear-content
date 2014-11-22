@@ -1,0 +1,53 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary,
+.comments-area {
+	margin: 1.5em 0 0;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.entry-header, .entry-meta {
+	border-top: 1px solid $color__border;
+}
+
+.entry-meta {
+	& a {
+		text-decoration: none;
+		@include font(Lato-Light);
+		color: $color__meta;
+		line-height: 2em;
+		@include font-size(1.7);
+		text-transform: uppercase;
+	}
+}
+
+article {
+ img.wp-post-image {
+		padding-bottom: 5px;
+		border-bottom: 1px solid $color__border;
+	}
+}

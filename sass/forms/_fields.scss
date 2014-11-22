@@ -1,0 +1,107 @@
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0; /* Addresses excess padding in IE8/9 */
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+	border: 0;
+	padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	color: $color__text-input-focus;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 3px;
+}
+
+textarea {
+	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding-left: 3px;
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+	width: 100%;
+}
+
+form#main-search {
+	font: normal 16px/1 'Genericons';
+	margin-top: 15px;
+	input {
+		width: 75%;
+		border: none;
+		border-bottom: 1px solid $color__border;
+	}
+	button#search-submit {
+		color: darken($color__border, 15%);
+		background: none;
+		border: none;
+		box-shadow: none;
+		display: inline-block;
+		margin-bottom: 0px;
+		font: normal 16px/1 'Genericons';
+		padding: 0;
+		&::after {
+			content: '\f400';
+		}
+	& input:focus {
+		background: red;
+		}
+	}
+}
+
+.search-field::-webkit-input-placeholder {
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+.search-field:-moz-placeholder { /* Firefox 18- */
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+.search-field::-moz-placeholder { /* Firefox 19+ */
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+.search-field:-ms-input-placeholder {
+color: darken($color__border, 15%);
+opacity:1;
+}
+
+
+
+
+
+
+

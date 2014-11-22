@@ -1,0 +1,48 @@
+.widget, .post-navigation {
+	clear: both;
+	margin: 0 0 1.5em;
+	border-top: 1px solid darken($color__border, 10%);
+	/* Make sure select elements fit in widgets */
+	select {
+		max-width: 100%;
+	}
+	ul {
+		margin: 0;
+		list-style: none;
+		li {
+			border-bottom: 1px solid $color__border;
+			padding: 7px 0px 7px 5px;
+			text-decoration: none;
+			@include font(Lato-Light);
+			&:hover {
+				background: $color__border;
+			}
+			& a {
+				text-decoration: none;
+				white-space: pre-wrap;       /* css-3 */
+ 				white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ 				white-space: -pre-wrap;      /* Opera 4-6 */
+ 				white-space: -o-pre-wrap;    /* Opera 7 */
+ 				word-wrap: break-word;       /* Internet Explorer 5.5+ */
+				&:hover {
+				}
+			}
+			& ul {
+				& li {
+					&:last-of-type {
+						border: none;
+					}
+				}
+			}
+		}
+	}
+	& h1.widget-title {
+		margin-top: 5px;
+	}
+}
+
+/* Search widget */
+.widget_search .search-submit {
+	display: none;
+}
+

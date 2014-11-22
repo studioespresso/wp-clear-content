@@ -1,0 +1,10 @@
+body#tinymce.wp-editor { 
+    font-family: Lato-Regular, Avenir, Verdana, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 10px; 
+}
+
+body#tinymce.wp-editor a {
+    color: #17a;
+}
