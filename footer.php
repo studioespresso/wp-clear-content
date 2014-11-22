@@ -14,7 +14,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'clear-content' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'clear-content' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'clear-content' ), 'Clear Content', '<a href="http://onedge.be" rel="designer">Jan Henckens</a>' ); ?>
+			<?php printf( __( '%1$s by %2$s. (Way of the future)', 'clear-content' ), 'Clear Content', '<a href="http://onedge.be/themes/clear-content" rel="designer">On Edge</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
