@@ -76,6 +76,7 @@ function clear_content_setup() {
 	) );
 	add_theme_support( 'post-thumbnails', array( 'post' ));
 	add_theme_support( 'html5', array( 'search-form' ) );
+    add_editor_style( 'inc/clear-content-editor-style.css' );
 
 }
 endif; // clear_content_setup
