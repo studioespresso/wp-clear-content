@@ -1121,7 +1121,7 @@ hr {
   margin-bottom: 1.5em; }
 
 ul, ol {
-  margin: 0 0 1.5em 3em; }
+  margin: 0 0 1.5em 0; }
 
 ul {
   list-style: disc; }
@@ -1131,8 +1131,7 @@ ol {
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
-  margin-left: 1.5em; }
+  margin-bottom: 0; }
 
 dt {
   font-weight: bold; }
@@ -1277,6 +1276,8 @@ form#main-search {
     font: normal 16px/1 'Genericons'; }
     form#main-search button#search-submit::after {
       content: '\f400'; }
+    form#main-search button#search-submit input:focus {
+      background: red; }
 
 .search-field::-webkit-input-placeholder {
   color: #c8c8c8;
@@ -1325,12 +1326,10 @@ a {
       left: -999em;
       z-index: 99999; }
       .main-navigation ul.nav-menu ul ul {
-        left: -999em;
-        top: 0; }
+        left: -999em; }
       .main-navigation ul.nav-menu ul li {
         float: left;
         position: relative;
-        margin-right: 4%;
         background: white;
         min-width: 200px;
         padding: 5px; }

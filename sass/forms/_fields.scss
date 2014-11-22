@@ -71,6 +71,9 @@ form#main-search {
 		&::after {
 			content: '\f400';
 		}
+	& input:focus {
+		background: red;
+		}
 	}
 }
 
