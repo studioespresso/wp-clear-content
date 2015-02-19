@@ -9,6 +9,7 @@ body {
 			@include gs-span(d, 2, 12);
 		}
 		& .site-header {
+			max-width: 1400px;
 			@include gs-media (d, min) {
 				@include gs-span(d, 1, 12);
 				@include gs-pad(d, padin);
@@ -48,6 +49,7 @@ body {
 			}
 		}
 		& .site-content {
+			max-width: 1400px;
 			margin-top: 20px;
 			@include gs-span(m, all);
 			@include gs-media (t, min) {
@@ -143,6 +145,7 @@ body {
 
 body.single, body.page {
 	& .site-content .content-area main.site-main {
+		max-width: 1400px;
 		& article {
 			clear: both;
 			@include gs-media(m, max) {
