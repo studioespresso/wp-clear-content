@@ -4,11 +4,11 @@ Theme URI: http://onedge.be/themes/clear-content
 Author: Jan Henckens
 Author URI: http://onedge.be/
 Description: Responsive blog theme with simple colours and a focus on readability on every device or screen size.
-Version: 1.0.1
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: clear-content
-Tags: white, light, two-columns, right-sidebar, flexible-width, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Tags: white, light, two-columns, right-sidebar, fluid-layout, custom-menu, editor-style, featured-images, post-formats, sticky-post, translation-ready, responsive-layout
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -88,59 +88,62 @@ body .hfeed {
       margin-left: 8.6139896416%;
       margin-right: -100%;
       width: 91.3860103837%; } }
-  @media only screen and (min-width: 990px) {
-    body .hfeed .site-header {
-      display: block;
-      float: left;
-      margin-left: 0;
-      margin-right: -100%;
-      width: 100.0000000253%;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding-left: 1.683937825%;
-      padding-right: 1.683937825%; } }
-  body .hfeed .site-header .site-branding {
-    text-align: center; }
+  body .hfeed .site-header {
+    max-width: 1400px; }
     @media only screen and (min-width: 990px) {
-      body .hfeed .site-header .site-branding {
+      body .hfeed .site-header {
         display: block;
         float: left;
         margin-left: 0;
         margin-right: -100%;
-        width: 13.8601036333%; } }
-  @media only screen and (min-width: 768px) {
-    body .hfeed .site-header nav.main-navigation {
-      display: block;
-      float: left;
-      margin-left: 12.8255208384%;
-      margin-right: -100%;
-      width: 61.5234375154%; } }
-  @media only screen and (min-width: 990px) {
-    body .hfeed .site-header nav.main-navigation {
-      display: block;
-      float: left;
-      margin-left: 17.2279792833%;
-      margin-right: -100%;
-      width: 56.9300518369%; } }
-  @media only screen and (max-width: 767px) {
-    body .hfeed .site-header .site-search {
-      clear: both; } }
-  @media only screen and (min-width: 768px) {
-    body .hfeed .site-header .site-search {
-      display: block;
-      float: left;
-      margin-left: 76.9531250238%;
-      margin-right: -100%;
-      width: 23.0468749995%; } }
-  @media only screen and (min-width: 990px) {
-    body .hfeed .site-header .site-search {
-      display: block;
-      float: left;
-      margin-left: 68.9119171331%;
-      margin-right: -100%;
-      width: 22.4740932579%; } }
+        width: 100.0000000253%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 1.683937825%;
+        padding-right: 1.683937825%; } }
+    body .hfeed .site-header .site-branding {
+      text-align: center; }
+      @media only screen and (min-width: 990px) {
+        body .hfeed .site-header .site-branding {
+          display: block;
+          float: left;
+          margin-left: 0;
+          margin-right: -100%;
+          width: 13.8601036333%; } }
+    @media only screen and (min-width: 768px) {
+      body .hfeed .site-header nav.main-navigation {
+        display: block;
+        float: left;
+        margin-left: 12.8255208384%;
+        margin-right: -100%;
+        width: 61.5234375154%; } }
+    @media only screen and (min-width: 990px) {
+      body .hfeed .site-header nav.main-navigation {
+        display: block;
+        float: left;
+        margin-left: 17.2279792833%;
+        margin-right: -100%;
+        width: 56.9300518369%; } }
+    @media only screen and (max-width: 767px) {
+      body .hfeed .site-header .site-search {
+        clear: both; } }
+    @media only screen and (min-width: 768px) {
+      body .hfeed .site-header .site-search {
+        display: block;
+        float: left;
+        margin-left: 76.9531250238%;
+        margin-right: -100%;
+        width: 23.0468749995%; } }
+    @media only screen and (min-width: 990px) {
+      body .hfeed .site-header .site-search {
+        display: block;
+        float: left;
+        margin-left: 68.9119171331%;
+        margin-right: -100%;
+        width: 22.4740932579%; } }
   body .hfeed .site-content {
+    max-width: 1400px;
     margin-top: 20px;
     clear: both;
     display: block;
@@ -316,31 +319,19 @@ body .site-footer {
       padding-left: 1.683937825%;
       padding-right: 1.683937825%; } }
 
-body.single .site-content .content-area main.site-main article, body.page .site-content .content-area main.site-main article {
-  clear: both; }
-  @media only screen and (max-width: 767px) {
-    body.single .site-content .content-area main.site-main article, body.page .site-content .content-area main.site-main article {
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding-left: 3.125%;
-      padding-right: 3.125%; } }
-  @media only screen and (min-width: 768px) {
-    body.single .site-content .content-area main.site-main article header.entry-header, body.page .site-content .content-area main.site-main article header.entry-header {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding-left: 2.60416667%;
-      padding-right: 2.60416667%; } }
-  body.single .site-content .content-area main.site-main article .entry-content, body.page .site-content .content-area main.site-main article .entry-content {
+body.single .site-content .content-area main.site-main, body.page .site-content .content-area main.site-main {
+  max-width: 1400px; }
+  body.single .site-content .content-area main.site-main article, body.page .site-content .content-area main.site-main article {
     clear: both; }
+    @media only screen and (max-width: 767px) {
+      body.single .site-content .content-area main.site-main article, body.page .site-content .content-area main.site-main article {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 3.125%;
+        padding-right: 3.125%; } }
     @media only screen and (min-width: 768px) {
-      body.single .site-content .content-area main.site-main article .entry-content, body.page .site-content .content-area main.site-main article .entry-content {
+      body.single .site-content .content-area main.site-main article header.entry-header, body.page .site-content .content-area main.site-main article header.entry-header {
         clear: both;
         display: block;
         float: left;
@@ -351,10 +342,50 @@ body.single .site-content .content-area main.site-main article, body.page .site-
         box-sizing: border-box;
         padding-left: 2.60416667%;
         padding-right: 2.60416667%; } }
-  body.single .site-content .content-area main.site-main article .entry-footer, body.page .site-content .content-area main.site-main article .entry-footer {
+    body.single .site-content .content-area main.site-main article .entry-content, body.page .site-content .content-area main.site-main article .entry-content {
+      clear: both; }
+      @media only screen and (min-width: 768px) {
+        body.single .site-content .content-area main.site-main article .entry-content, body.page .site-content .content-area main.site-main article .entry-content {
+          clear: both;
+          display: block;
+          float: left;
+          margin-left: 0;
+          width: 100%;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding-left: 2.60416667%;
+          padding-right: 2.60416667%; } }
+    body.single .site-content .content-area main.site-main article .entry-footer, body.page .site-content .content-area main.site-main article .entry-footer {
+      clear: both; }
+      @media only screen and (min-width: 768px) {
+        body.single .site-content .content-area main.site-main article .entry-footer, body.page .site-content .content-area main.site-main article .entry-footer {
+          clear: both;
+          display: block;
+          float: left;
+          margin-left: 0;
+          width: 100%;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding-left: 2.60416667%;
+          padding-right: 2.60416667%; } }
+  body.single .site-content .content-area main.site-main .comments-area, body.page .site-content .content-area main.site-main .comments-area {
     clear: both; }
+    @media only screen and (max-width: 767px) {
+      body.single .site-content .content-area main.site-main .comments-area, body.page .site-content .content-area main.site-main .comments-area {
+        clear: both;
+        display: block;
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 3.125%;
+        padding-right: 3.125%; } }
     @media only screen and (min-width: 768px) {
-      body.single .site-content .content-area main.site-main article .entry-footer, body.page .site-content .content-area main.site-main article .entry-footer {
+      body.single .site-content .content-area main.site-main .comments-area, body.page .site-content .content-area main.site-main .comments-area {
         clear: both;
         display: block;
         float: left;
@@ -365,32 +396,6 @@ body.single .site-content .content-area main.site-main article, body.page .site-
         box-sizing: border-box;
         padding-left: 2.60416667%;
         padding-right: 2.60416667%; } }
-body.single .site-content .content-area main.site-main .comments-area, body.page .site-content .content-area main.site-main .comments-area {
-  clear: both; }
-  @media only screen and (max-width: 767px) {
-    body.single .site-content .content-area main.site-main .comments-area, body.page .site-content .content-area main.site-main .comments-area {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding-left: 3.125%;
-      padding-right: 3.125%; } }
-  @media only screen and (min-width: 768px) {
-    body.single .site-content .content-area main.site-main .comments-area, body.page .site-content .content-area main.site-main .comments-area {
-      clear: both;
-      display: block;
-      float: left;
-      margin-left: 0;
-      width: 100%;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding-left: 2.60416667%;
-      padding-right: 2.60416667%; } }
 body.single .site-footer, body.page .site-footer {
   clear: both; }
   @media only screen and (max-width: 767px) {
@@ -567,7 +572,8 @@ h1.entry-title {
   font-style: normal;
   font-weight: normal;
   -ms-word-wrap: break-word;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  margin-bottom: 10px; }
   h1.entry-title a {
     text-decoration: none;
     color: #17a; }
@@ -1156,6 +1162,9 @@ ol {
 li > ul,
 li > ol {
   margin-bottom: 0; }
+  li > ul > li,
+  li > ol > li {
+    margin-left: 20px; }
 
 dt {
   font-weight: bold; }
@@ -1569,6 +1578,11 @@ a {
   font-size: 17px;
   font-size: 1.7rem;
   text-transform: uppercase; }
+
+.entry-footer {
+  font-size: 17px;
+  font-size: 1.7rem;
+  color: #999; }
 
 article img.wp-post-image {
   padding-bottom: 5px;

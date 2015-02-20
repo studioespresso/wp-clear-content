@@ -15,18 +15,26 @@
 		<h1 class="entry-title">
 			<?php the_title( sprintf( '<a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a>' ); ?>
 		</h1>
-		<?php the_post_thumbnail( $size, $attr ); ?>
+		<?php the_post_thumbnail(); ?>
 
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+
 		<?php
-			/* translators: %s: Name of current post */
+			if ( has_excerpt( $post->ID ) ) {
+			    the_excerpt(); ?>
+			    <a href="<?php echo get_permalink(); ?>"><?php _e( 'Read more...', 'clear-content' );?></a>
+			<?php
+			} else {
+			    // This post has no excerpt
 			the_content( sprintf(
 				__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'clear-content' ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
+			}
 		?>
+
 
 		<?php
 			wp_link_pages( array(

@@ -38,7 +38,7 @@ function clear_content_setup() {
 	 *
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
-	//add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -74,9 +74,7 @@ function clear_content_setup() {
 	add_theme_support( 'site-logo', array(
 	    'size' => 'clear_content_logo',
 	) );
-	add_theme_support( 'post-thumbnails', array( 'post' ));
-	add_theme_support( 'html5', array( 'search-form' ) );
-    add_editor_style( 'inc/clear-content-editor-style.css' );
+  add_editor_style( 'inc/clear-content-editor-style.css' );
 
 }
 endif; // clear_content_setup
