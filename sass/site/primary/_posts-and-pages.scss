@@ -44,6 +44,10 @@
 		text-transform: uppercase;
 	}
 }
+.entry-footer {
+	@include font-size(1.7);
+	color: $color__meta;
+}
 
 article {
  img.wp-post-image {

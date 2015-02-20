@@ -1575,6 +1575,11 @@ a {
   font-size: 1.7rem;
   text-transform: uppercase; }
 
+.entry-footer {
+  font-size: 17px;
+  font-size: 1.7rem;
+  color: #999; }
+
 article img.wp-post-image {
   padding-bottom: 5px;
   border-bottom: 1px solid #eee; }
