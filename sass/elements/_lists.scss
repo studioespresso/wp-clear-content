@@ -11,8 +11,11 @@ ol {
 }
 
 li > ul,
-li > ol {
+li > ol{
 	margin-bottom: 0;
+    & > li {
+        margin-left: 20px;
+    }
 }
 
 dt {

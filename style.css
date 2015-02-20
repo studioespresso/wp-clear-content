@@ -1162,6 +1162,9 @@ ol {
 li > ul,
 li > ol {
   margin-bottom: 0; }
+  li > ul > li,
+  li > ol > li {
+    margin-left: 20px; }
 
 dt {
   font-weight: bold; }
