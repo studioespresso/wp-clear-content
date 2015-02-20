@@ -572,7 +572,8 @@ h1.entry-title {
   font-style: normal;
   font-weight: normal;
   -ms-word-wrap: break-word;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  margin-bottom: 10px; }
   h1.entry-title a {
     text-decoration: none;
     color: #17a; }
