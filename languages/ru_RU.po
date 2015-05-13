@@ -1,0 +1,281 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clear Content 1.0\n"
+"Report-Msgid-Bugs-To: http://onedge.be/themes/clear-content\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-05-12 15:18+0100\n"
+"Last-Translator: Tor-Bjorn Fjellner <bounce@fjellner.com>\n"
+"Language-Team: Tor-Bjorn Fjellner\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n %10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: ru_RU\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Не удалось найти такую страницу."
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Похоже, там нет нигего. Попробуйте какую-нибудь из следующих ссылок, или "
+"используйте поиск!"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Самые популярные категории"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Посмотреть архивы по месяцам. %1$s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Боковые"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Галереи"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Изображения"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Видео"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Ссылки"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Статусы"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Аудио-файлы"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Чаты"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Архивы"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Одна мысль по поводу &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s мысли по поводу &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s мыслей по поводу &ldquo;%2$s&rdquo;"
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Комментирование закрыто"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:19
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готов опубликовать свою первую запись? <a href=\"%1$s\">Начни тут</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"К сожалению, поиск по вашему запросу не дал ничего. Попробуйте другие "
+"ключевые слова."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Похоже, не удалось найти то, что хотел. Может быть стоит совершить поиск?"
+
+#: content-page.php:18 content-single.php:20 content.php:22
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: content-page.php:25 inc/template-tags.php:122
+msgid "Edit"
+msgstr "Редактировать"
+
+#: content.php:19
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "читать дальше <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://ru.wordpress.org/"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "При поддержке %s"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема оформления: %1$s от %2$s."
+
+#: functions.php:45 header.php:32
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:80
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Перейти к тексту"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Последующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Навигация по записи"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "от %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:104 inc/template-tags.php:110
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:106
+msgid "Posted in %1$s"
+msgstr "Опубликовано в %1$s"
+
+#: inc/template-tags.php:112
+msgid "Tagged %1$s"
+msgstr "Пометки %1$s"
+
+#: inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr "Написать комментарий"
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr "Кол. комментариев: %"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результат поиска по словам: %s"
+
+#. Theme Name of the plugin/theme
+msgid "Clear Content"
+msgstr "Clear Content"
+
+#. Theme URI of the plugin/theme
+msgid "http://onedge.be/themes/clear-content"
+msgstr "http://onedge.be/themes/clear-content"
+
+#. Description of the plugin/theme
+msgid ""
+"Responsive blog theme with simple colours and a focus on readability on "
+"every device or screen size."
+msgstr ""
+"Адаптивная тема для блога, с прострыми цветами и хорошей читаемостью на "
+"экране любого размера."
+
+#. Author of the plugin/theme
+msgid "On Edge"
+msgstr "On Edge"
+
+#. Author URI of the plugin/theme
+msgid "http://onedge.be"
+msgstr "http://onedge.be"
